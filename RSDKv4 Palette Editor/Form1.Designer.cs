@@ -47,6 +47,10 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
@@ -127,10 +131,6 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox94 = new System.Windows.Forms.PictureBox();
             this.pictureBox95 = new System.Windows.Forms.PictureBox();
             this.pictureBox96 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -232,7 +232,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(11, 47);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 48);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(16, 16);
             this.pictureBox1.TabIndex = 0;
@@ -247,7 +247,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(33, 47);
+            this.pictureBox2.Location = new System.Drawing.Point(34, 48);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(16, 16);
             this.pictureBox2.TabIndex = 1;
@@ -257,7 +257,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox3
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Location = new System.Drawing.Point(55, 47);
+            this.pictureBox3.Location = new System.Drawing.Point(56, 48);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(16, 16);
             this.pictureBox3.TabIndex = 2;
@@ -267,7 +267,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox4
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Location = new System.Drawing.Point(77, 47);
+            this.pictureBox4.Location = new System.Drawing.Point(78, 48);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(16, 16);
             this.pictureBox4.TabIndex = 3;
@@ -277,7 +277,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox5
             // 
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Location = new System.Drawing.Point(99, 47);
+            this.pictureBox5.Location = new System.Drawing.Point(100, 48);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(16, 16);
             this.pictureBox5.TabIndex = 4;
@@ -287,7 +287,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox6
             // 
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox6.Location = new System.Drawing.Point(121, 47);
+            this.pictureBox6.Location = new System.Drawing.Point(122, 48);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(16, 16);
             this.pictureBox6.TabIndex = 5;
@@ -297,7 +297,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox7
             // 
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox7.Location = new System.Drawing.Point(143, 47);
+            this.pictureBox7.Location = new System.Drawing.Point(144, 48);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(16, 16);
             this.pictureBox7.TabIndex = 6;
@@ -307,7 +307,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox8
             // 
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox8.Location = new System.Drawing.Point(165, 47);
+            this.pictureBox8.Location = new System.Drawing.Point(166, 48);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(16, 16);
             this.pictureBox8.TabIndex = 7;
@@ -317,7 +317,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox9
             // 
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox9.Location = new System.Drawing.Point(187, 47);
+            this.pictureBox9.Location = new System.Drawing.Point(188, 48);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(16, 16);
             this.pictureBox9.TabIndex = 8;
@@ -327,7 +327,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox10
             // 
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox10.Location = new System.Drawing.Point(209, 47);
+            this.pictureBox10.Location = new System.Drawing.Point(210, 48);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(16, 16);
             this.pictureBox10.TabIndex = 9;
@@ -337,7 +337,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox11
             // 
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox11.Location = new System.Drawing.Point(231, 47);
+            this.pictureBox11.Location = new System.Drawing.Point(232, 48);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(16, 16);
             this.pictureBox11.TabIndex = 10;
@@ -347,7 +347,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox12
             // 
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox12.Location = new System.Drawing.Point(253, 47);
+            this.pictureBox12.Location = new System.Drawing.Point(254, 48);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(16, 16);
             this.pictureBox12.TabIndex = 11;
@@ -357,7 +357,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox13
             // 
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox13.Location = new System.Drawing.Point(275, 47);
+            this.pictureBox13.Location = new System.Drawing.Point(276, 48);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(16, 16);
             this.pictureBox13.TabIndex = 12;
@@ -367,7 +367,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox14
             // 
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox14.Location = new System.Drawing.Point(297, 47);
+            this.pictureBox14.Location = new System.Drawing.Point(298, 48);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(16, 16);
             this.pictureBox14.TabIndex = 13;
@@ -377,7 +377,7 @@ namespace RSDKv4_Palette_Editor
             // pictureBox15
             // 
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox15.Location = new System.Drawing.Point(319, 47);
+            this.pictureBox15.Location = new System.Drawing.Point(320, 48);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(16, 16);
             this.pictureBox15.TabIndex = 14;
@@ -387,812 +387,12 @@ namespace RSDKv4_Palette_Editor
             // pictureBox16
             // 
             this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox16.Location = new System.Drawing.Point(341, 47);
+            this.pictureBox16.Location = new System.Drawing.Point(342, 48);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(16, 16);
             this.pictureBox16.TabIndex = 15;
             this.pictureBox16.TabStop = false;
             this.pictureBox16.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox17.Location = new System.Drawing.Point(341, 69);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox17.TabIndex = 31;
-            this.pictureBox17.TabStop = false;
-            this.pictureBox17.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox18.Location = new System.Drawing.Point(319, 69);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox18.TabIndex = 30;
-            this.pictureBox18.TabStop = false;
-            this.pictureBox18.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox19.Location = new System.Drawing.Point(297, 69);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox19.TabIndex = 29;
-            this.pictureBox19.TabStop = false;
-            this.pictureBox19.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox20.Location = new System.Drawing.Point(275, 69);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox20.TabIndex = 28;
-            this.pictureBox20.TabStop = false;
-            this.pictureBox20.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox21.Location = new System.Drawing.Point(253, 69);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox21.TabIndex = 27;
-            this.pictureBox21.TabStop = false;
-            this.pictureBox21.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox22.Location = new System.Drawing.Point(231, 69);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox22.TabIndex = 26;
-            this.pictureBox22.TabStop = false;
-            this.pictureBox22.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox23.Location = new System.Drawing.Point(209, 69);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox23.TabIndex = 25;
-            this.pictureBox23.TabStop = false;
-            this.pictureBox23.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox24.Location = new System.Drawing.Point(187, 69);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox24.TabIndex = 24;
-            this.pictureBox24.TabStop = false;
-            this.pictureBox24.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox25.Location = new System.Drawing.Point(165, 69);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox25.TabIndex = 23;
-            this.pictureBox25.TabStop = false;
-            this.pictureBox25.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox26.Location = new System.Drawing.Point(143, 69);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox26.TabIndex = 22;
-            this.pictureBox26.TabStop = false;
-            this.pictureBox26.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox27.Location = new System.Drawing.Point(121, 69);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox27.TabIndex = 21;
-            this.pictureBox27.TabStop = false;
-            this.pictureBox27.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox28
-            // 
-            this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox28.Location = new System.Drawing.Point(99, 69);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox28.TabIndex = 20;
-            this.pictureBox28.TabStop = false;
-            this.pictureBox28.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox29
-            // 
-            this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox29.Location = new System.Drawing.Point(77, 69);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox29.TabIndex = 19;
-            this.pictureBox29.TabStop = false;
-            this.pictureBox29.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox30
-            // 
-            this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox30.Location = new System.Drawing.Point(55, 69);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox30.TabIndex = 18;
-            this.pictureBox30.TabStop = false;
-            this.pictureBox30.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox31.Location = new System.Drawing.Point(33, 69);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox31.TabIndex = 17;
-            this.pictureBox31.TabStop = false;
-            this.pictureBox31.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox32.Location = new System.Drawing.Point(11, 69);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox32.TabIndex = 16;
-            this.pictureBox32.TabStop = false;
-            this.pictureBox32.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox33
-            // 
-            this.pictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox33.Location = new System.Drawing.Point(341, 91);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox33.TabIndex = 47;
-            this.pictureBox33.TabStop = false;
-            this.pictureBox33.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox34.Location = new System.Drawing.Point(319, 91);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox34.TabIndex = 46;
-            this.pictureBox34.TabStop = false;
-            this.pictureBox34.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox35
-            // 
-            this.pictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox35.Location = new System.Drawing.Point(297, 91);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox35.TabIndex = 45;
-            this.pictureBox35.TabStop = false;
-            this.pictureBox35.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox36
-            // 
-            this.pictureBox36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox36.Location = new System.Drawing.Point(275, 91);
-            this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox36.TabIndex = 44;
-            this.pictureBox36.TabStop = false;
-            this.pictureBox36.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox37
-            // 
-            this.pictureBox37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox37.Location = new System.Drawing.Point(253, 91);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox37.TabIndex = 43;
-            this.pictureBox37.TabStop = false;
-            this.pictureBox37.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox38
-            // 
-            this.pictureBox38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox38.Location = new System.Drawing.Point(231, 91);
-            this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox38.TabIndex = 42;
-            this.pictureBox38.TabStop = false;
-            this.pictureBox38.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox39
-            // 
-            this.pictureBox39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox39.Location = new System.Drawing.Point(209, 91);
-            this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox39.TabIndex = 41;
-            this.pictureBox39.TabStop = false;
-            this.pictureBox39.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox40
-            // 
-            this.pictureBox40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox40.Location = new System.Drawing.Point(187, 91);
-            this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox40.TabIndex = 40;
-            this.pictureBox40.TabStop = false;
-            this.pictureBox40.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox41
-            // 
-            this.pictureBox41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox41.Location = new System.Drawing.Point(165, 91);
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox41.TabIndex = 39;
-            this.pictureBox41.TabStop = false;
-            this.pictureBox41.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox42
-            // 
-            this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox42.Location = new System.Drawing.Point(143, 91);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox42.TabIndex = 38;
-            this.pictureBox42.TabStop = false;
-            this.pictureBox42.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox43
-            // 
-            this.pictureBox43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox43.Location = new System.Drawing.Point(121, 91);
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox43.TabIndex = 37;
-            this.pictureBox43.TabStop = false;
-            this.pictureBox43.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox44
-            // 
-            this.pictureBox44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox44.Location = new System.Drawing.Point(99, 91);
-            this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox44.TabIndex = 36;
-            this.pictureBox44.TabStop = false;
-            this.pictureBox44.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox45
-            // 
-            this.pictureBox45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox45.Location = new System.Drawing.Point(77, 91);
-            this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox45.TabIndex = 35;
-            this.pictureBox45.TabStop = false;
-            this.pictureBox45.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox46
-            // 
-            this.pictureBox46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox46.Location = new System.Drawing.Point(55, 91);
-            this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox46.TabIndex = 34;
-            this.pictureBox46.TabStop = false;
-            this.pictureBox46.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox47
-            // 
-            this.pictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox47.Location = new System.Drawing.Point(33, 91);
-            this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox47.TabIndex = 33;
-            this.pictureBox47.TabStop = false;
-            this.pictureBox47.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox48
-            // 
-            this.pictureBox48.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox48.Location = new System.Drawing.Point(11, 91);
-            this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox48.TabIndex = 32;
-            this.pictureBox48.TabStop = false;
-            this.pictureBox48.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox49
-            // 
-            this.pictureBox49.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox49.Location = new System.Drawing.Point(341, 113);
-            this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox49.TabIndex = 63;
-            this.pictureBox49.TabStop = false;
-            this.pictureBox49.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox50
-            // 
-            this.pictureBox50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox50.Location = new System.Drawing.Point(319, 113);
-            this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox50.TabIndex = 62;
-            this.pictureBox50.TabStop = false;
-            this.pictureBox50.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox51
-            // 
-            this.pictureBox51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox51.Location = new System.Drawing.Point(297, 113);
-            this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox51.TabIndex = 61;
-            this.pictureBox51.TabStop = false;
-            this.pictureBox51.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox52
-            // 
-            this.pictureBox52.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox52.Location = new System.Drawing.Point(275, 113);
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox52.TabIndex = 60;
-            this.pictureBox52.TabStop = false;
-            this.pictureBox52.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox53
-            // 
-            this.pictureBox53.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox53.Location = new System.Drawing.Point(253, 113);
-            this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox53.TabIndex = 59;
-            this.pictureBox53.TabStop = false;
-            this.pictureBox53.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox54
-            // 
-            this.pictureBox54.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox54.Location = new System.Drawing.Point(231, 113);
-            this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox54.TabIndex = 58;
-            this.pictureBox54.TabStop = false;
-            this.pictureBox54.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox55
-            // 
-            this.pictureBox55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox55.Location = new System.Drawing.Point(209, 113);
-            this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox55.TabIndex = 57;
-            this.pictureBox55.TabStop = false;
-            this.pictureBox55.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox56
-            // 
-            this.pictureBox56.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox56.Location = new System.Drawing.Point(187, 113);
-            this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox56.TabIndex = 56;
-            this.pictureBox56.TabStop = false;
-            this.pictureBox56.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox57
-            // 
-            this.pictureBox57.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox57.Location = new System.Drawing.Point(165, 113);
-            this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox57.TabIndex = 55;
-            this.pictureBox57.TabStop = false;
-            this.pictureBox57.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox58
-            // 
-            this.pictureBox58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox58.Location = new System.Drawing.Point(143, 113);
-            this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox58.TabIndex = 54;
-            this.pictureBox58.TabStop = false;
-            this.pictureBox58.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox59
-            // 
-            this.pictureBox59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox59.Location = new System.Drawing.Point(121, 113);
-            this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox59.TabIndex = 53;
-            this.pictureBox59.TabStop = false;
-            this.pictureBox59.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox60
-            // 
-            this.pictureBox60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox60.Location = new System.Drawing.Point(99, 113);
-            this.pictureBox60.Name = "pictureBox60";
-            this.pictureBox60.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox60.TabIndex = 52;
-            this.pictureBox60.TabStop = false;
-            this.pictureBox60.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox61
-            // 
-            this.pictureBox61.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox61.Location = new System.Drawing.Point(77, 113);
-            this.pictureBox61.Name = "pictureBox61";
-            this.pictureBox61.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox61.TabIndex = 51;
-            this.pictureBox61.TabStop = false;
-            this.pictureBox61.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox62
-            // 
-            this.pictureBox62.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox62.Location = new System.Drawing.Point(55, 113);
-            this.pictureBox62.Name = "pictureBox62";
-            this.pictureBox62.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox62.TabIndex = 50;
-            this.pictureBox62.TabStop = false;
-            this.pictureBox62.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox63
-            // 
-            this.pictureBox63.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox63.Location = new System.Drawing.Point(33, 113);
-            this.pictureBox63.Name = "pictureBox63";
-            this.pictureBox63.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox63.TabIndex = 49;
-            this.pictureBox63.TabStop = false;
-            this.pictureBox63.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox64
-            // 
-            this.pictureBox64.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox64.Location = new System.Drawing.Point(11, 113);
-            this.pictureBox64.Name = "pictureBox64";
-            this.pictureBox64.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox64.TabIndex = 48;
-            this.pictureBox64.TabStop = false;
-            this.pictureBox64.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox65
-            // 
-            this.pictureBox65.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox65.Location = new System.Drawing.Point(341, 135);
-            this.pictureBox65.Name = "pictureBox65";
-            this.pictureBox65.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox65.TabIndex = 79;
-            this.pictureBox65.TabStop = false;
-            this.pictureBox65.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox66
-            // 
-            this.pictureBox66.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox66.Location = new System.Drawing.Point(319, 135);
-            this.pictureBox66.Name = "pictureBox66";
-            this.pictureBox66.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox66.TabIndex = 78;
-            this.pictureBox66.TabStop = false;
-            this.pictureBox66.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox67
-            // 
-            this.pictureBox67.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox67.Location = new System.Drawing.Point(297, 135);
-            this.pictureBox67.Name = "pictureBox67";
-            this.pictureBox67.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox67.TabIndex = 77;
-            this.pictureBox67.TabStop = false;
-            this.pictureBox67.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox68
-            // 
-            this.pictureBox68.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox68.Location = new System.Drawing.Point(275, 135);
-            this.pictureBox68.Name = "pictureBox68";
-            this.pictureBox68.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox68.TabIndex = 76;
-            this.pictureBox68.TabStop = false;
-            this.pictureBox68.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox69
-            // 
-            this.pictureBox69.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox69.Location = new System.Drawing.Point(253, 135);
-            this.pictureBox69.Name = "pictureBox69";
-            this.pictureBox69.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox69.TabIndex = 75;
-            this.pictureBox69.TabStop = false;
-            this.pictureBox69.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox70
-            // 
-            this.pictureBox70.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox70.Location = new System.Drawing.Point(231, 135);
-            this.pictureBox70.Name = "pictureBox70";
-            this.pictureBox70.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox70.TabIndex = 74;
-            this.pictureBox70.TabStop = false;
-            this.pictureBox70.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox71
-            // 
-            this.pictureBox71.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox71.Location = new System.Drawing.Point(209, 135);
-            this.pictureBox71.Name = "pictureBox71";
-            this.pictureBox71.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox71.TabIndex = 73;
-            this.pictureBox71.TabStop = false;
-            this.pictureBox71.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox72
-            // 
-            this.pictureBox72.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox72.Location = new System.Drawing.Point(187, 135);
-            this.pictureBox72.Name = "pictureBox72";
-            this.pictureBox72.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox72.TabIndex = 72;
-            this.pictureBox72.TabStop = false;
-            this.pictureBox72.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox73
-            // 
-            this.pictureBox73.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox73.Location = new System.Drawing.Point(165, 135);
-            this.pictureBox73.Name = "pictureBox73";
-            this.pictureBox73.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox73.TabIndex = 71;
-            this.pictureBox73.TabStop = false;
-            this.pictureBox73.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox74
-            // 
-            this.pictureBox74.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox74.Location = new System.Drawing.Point(143, 135);
-            this.pictureBox74.Name = "pictureBox74";
-            this.pictureBox74.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox74.TabIndex = 70;
-            this.pictureBox74.TabStop = false;
-            this.pictureBox74.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox75
-            // 
-            this.pictureBox75.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox75.Location = new System.Drawing.Point(121, 135);
-            this.pictureBox75.Name = "pictureBox75";
-            this.pictureBox75.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox75.TabIndex = 69;
-            this.pictureBox75.TabStop = false;
-            this.pictureBox75.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox76
-            // 
-            this.pictureBox76.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox76.Location = new System.Drawing.Point(99, 135);
-            this.pictureBox76.Name = "pictureBox76";
-            this.pictureBox76.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox76.TabIndex = 68;
-            this.pictureBox76.TabStop = false;
-            this.pictureBox76.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox77
-            // 
-            this.pictureBox77.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox77.Location = new System.Drawing.Point(77, 135);
-            this.pictureBox77.Name = "pictureBox77";
-            this.pictureBox77.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox77.TabIndex = 67;
-            this.pictureBox77.TabStop = false;
-            this.pictureBox77.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox78
-            // 
-            this.pictureBox78.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox78.Location = new System.Drawing.Point(55, 135);
-            this.pictureBox78.Name = "pictureBox78";
-            this.pictureBox78.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox78.TabIndex = 66;
-            this.pictureBox78.TabStop = false;
-            this.pictureBox78.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox79
-            // 
-            this.pictureBox79.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox79.Location = new System.Drawing.Point(33, 135);
-            this.pictureBox79.Name = "pictureBox79";
-            this.pictureBox79.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox79.TabIndex = 65;
-            this.pictureBox79.TabStop = false;
-            this.pictureBox79.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox80
-            // 
-            this.pictureBox80.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox80.Location = new System.Drawing.Point(11, 135);
-            this.pictureBox80.Name = "pictureBox80";
-            this.pictureBox80.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox80.TabIndex = 64;
-            this.pictureBox80.TabStop = false;
-            this.pictureBox80.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox81
-            // 
-            this.pictureBox81.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox81.Location = new System.Drawing.Point(341, 157);
-            this.pictureBox81.Name = "pictureBox81";
-            this.pictureBox81.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox81.TabIndex = 95;
-            this.pictureBox81.TabStop = false;
-            this.pictureBox81.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox82
-            // 
-            this.pictureBox82.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox82.Location = new System.Drawing.Point(319, 157);
-            this.pictureBox82.Name = "pictureBox82";
-            this.pictureBox82.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox82.TabIndex = 94;
-            this.pictureBox82.TabStop = false;
-            this.pictureBox82.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox83
-            // 
-            this.pictureBox83.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox83.Location = new System.Drawing.Point(297, 157);
-            this.pictureBox83.Name = "pictureBox83";
-            this.pictureBox83.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox83.TabIndex = 93;
-            this.pictureBox83.TabStop = false;
-            this.pictureBox83.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox84
-            // 
-            this.pictureBox84.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox84.Location = new System.Drawing.Point(275, 157);
-            this.pictureBox84.Name = "pictureBox84";
-            this.pictureBox84.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox84.TabIndex = 92;
-            this.pictureBox84.TabStop = false;
-            this.pictureBox84.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox85
-            // 
-            this.pictureBox85.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox85.Location = new System.Drawing.Point(253, 157);
-            this.pictureBox85.Name = "pictureBox85";
-            this.pictureBox85.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox85.TabIndex = 91;
-            this.pictureBox85.TabStop = false;
-            this.pictureBox85.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox86
-            // 
-            this.pictureBox86.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox86.Location = new System.Drawing.Point(231, 157);
-            this.pictureBox86.Name = "pictureBox86";
-            this.pictureBox86.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox86.TabIndex = 90;
-            this.pictureBox86.TabStop = false;
-            this.pictureBox86.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox87
-            // 
-            this.pictureBox87.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox87.Location = new System.Drawing.Point(209, 157);
-            this.pictureBox87.Name = "pictureBox87";
-            this.pictureBox87.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox87.TabIndex = 89;
-            this.pictureBox87.TabStop = false;
-            this.pictureBox87.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox88
-            // 
-            this.pictureBox88.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox88.Location = new System.Drawing.Point(187, 157);
-            this.pictureBox88.Name = "pictureBox88";
-            this.pictureBox88.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox88.TabIndex = 88;
-            this.pictureBox88.TabStop = false;
-            this.pictureBox88.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox89
-            // 
-            this.pictureBox89.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox89.Location = new System.Drawing.Point(165, 157);
-            this.pictureBox89.Name = "pictureBox89";
-            this.pictureBox89.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox89.TabIndex = 87;
-            this.pictureBox89.TabStop = false;
-            this.pictureBox89.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox90
-            // 
-            this.pictureBox90.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox90.Location = new System.Drawing.Point(143, 157);
-            this.pictureBox90.Name = "pictureBox90";
-            this.pictureBox90.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox90.TabIndex = 86;
-            this.pictureBox90.TabStop = false;
-            this.pictureBox90.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox91
-            // 
-            this.pictureBox91.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox91.Location = new System.Drawing.Point(121, 157);
-            this.pictureBox91.Name = "pictureBox91";
-            this.pictureBox91.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox91.TabIndex = 85;
-            this.pictureBox91.TabStop = false;
-            this.pictureBox91.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox92
-            // 
-            this.pictureBox92.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox92.Location = new System.Drawing.Point(99, 157);
-            this.pictureBox92.Name = "pictureBox92";
-            this.pictureBox92.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox92.TabIndex = 84;
-            this.pictureBox92.TabStop = false;
-            this.pictureBox92.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox93
-            // 
-            this.pictureBox93.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox93.Location = new System.Drawing.Point(77, 157);
-            this.pictureBox93.Name = "pictureBox93";
-            this.pictureBox93.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox93.TabIndex = 83;
-            this.pictureBox93.TabStop = false;
-            this.pictureBox93.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox94
-            // 
-            this.pictureBox94.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox94.Location = new System.Drawing.Point(55, 157);
-            this.pictureBox94.Name = "pictureBox94";
-            this.pictureBox94.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox94.TabIndex = 82;
-            this.pictureBox94.TabStop = false;
-            this.pictureBox94.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox95
-            // 
-            this.pictureBox95.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox95.Location = new System.Drawing.Point(33, 157);
-            this.pictureBox95.Name = "pictureBox95";
-            this.pictureBox95.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox95.TabIndex = 81;
-            this.pictureBox95.TabStop = false;
-            this.pictureBox95.Click += new System.EventHandler(this.colorBox_Click);
-            // 
-            // pictureBox96
-            // 
-            this.pictureBox96.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox96.Location = new System.Drawing.Point(11, 157);
-            this.pictureBox96.Name = "pictureBox96";
-            this.pictureBox96.Size = new System.Drawing.Size(16, 16);
-            this.pictureBox96.TabIndex = 80;
-            this.pictureBox96.TabStop = false;
-            this.pictureBox96.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // button1
             // 
@@ -1233,15 +433,731 @@ namespace RSDKv4_Palette_Editor
             this.label2.TabIndex = 99;
             this.label2.Text = "Created by Splemb";
             // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox17.Location = new System.Drawing.Point(12, 70);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox17.TabIndex = 100;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox18.Location = new System.Drawing.Point(34, 70);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox18.TabIndex = 101;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox19.Location = new System.Drawing.Point(56, 70);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox19.TabIndex = 102;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox20.Location = new System.Drawing.Point(78, 70);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox20.TabIndex = 103;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox21.Location = new System.Drawing.Point(100, 70);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox21.TabIndex = 104;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox22.Location = new System.Drawing.Point(122, 70);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox22.TabIndex = 105;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox23.Location = new System.Drawing.Point(144, 70);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox23.TabIndex = 106;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox24.Location = new System.Drawing.Point(166, 70);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox24.TabIndex = 107;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox25.Location = new System.Drawing.Point(188, 70);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox25.TabIndex = 108;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox26.Location = new System.Drawing.Point(210, 70);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox26.TabIndex = 109;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox27.Location = new System.Drawing.Point(232, 70);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox27.TabIndex = 110;
+            this.pictureBox27.TabStop = false;
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox28.Location = new System.Drawing.Point(254, 70);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox28.TabIndex = 111;
+            this.pictureBox28.TabStop = false;
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox29.Location = new System.Drawing.Point(276, 70);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox29.TabIndex = 112;
+            this.pictureBox29.TabStop = false;
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox30.Location = new System.Drawing.Point(298, 70);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox30.TabIndex = 113;
+            this.pictureBox30.TabStop = false;
+            // 
+            // pictureBox31
+            // 
+            this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox31.Location = new System.Drawing.Point(320, 70);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox31.TabIndex = 114;
+            this.pictureBox31.TabStop = false;
+            // 
+            // pictureBox32
+            // 
+            this.pictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox32.Location = new System.Drawing.Point(342, 70);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox32.TabIndex = 115;
+            this.pictureBox32.TabStop = false;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox33.Location = new System.Drawing.Point(12, 92);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox33.TabIndex = 116;
+            this.pictureBox33.TabStop = false;
+            // 
+            // pictureBox34
+            // 
+            this.pictureBox34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox34.Location = new System.Drawing.Point(34, 92);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox34.TabIndex = 117;
+            this.pictureBox34.TabStop = false;
+            // 
+            // pictureBox35
+            // 
+            this.pictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox35.Location = new System.Drawing.Point(56, 92);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox35.TabIndex = 118;
+            this.pictureBox35.TabStop = false;
+            // 
+            // pictureBox36
+            // 
+            this.pictureBox36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox36.Location = new System.Drawing.Point(78, 92);
+            this.pictureBox36.Name = "pictureBox36";
+            this.pictureBox36.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox36.TabIndex = 119;
+            this.pictureBox36.TabStop = false;
+            // 
+            // pictureBox37
+            // 
+            this.pictureBox37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox37.Location = new System.Drawing.Point(100, 92);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox37.TabIndex = 120;
+            this.pictureBox37.TabStop = false;
+            // 
+            // pictureBox38
+            // 
+            this.pictureBox38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox38.Location = new System.Drawing.Point(122, 92);
+            this.pictureBox38.Name = "pictureBox38";
+            this.pictureBox38.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox38.TabIndex = 121;
+            this.pictureBox38.TabStop = false;
+            // 
+            // pictureBox39
+            // 
+            this.pictureBox39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox39.Location = new System.Drawing.Point(144, 92);
+            this.pictureBox39.Name = "pictureBox39";
+            this.pictureBox39.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox39.TabIndex = 122;
+            this.pictureBox39.TabStop = false;
+            // 
+            // pictureBox40
+            // 
+            this.pictureBox40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox40.Location = new System.Drawing.Point(166, 92);
+            this.pictureBox40.Name = "pictureBox40";
+            this.pictureBox40.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox40.TabIndex = 123;
+            this.pictureBox40.TabStop = false;
+            // 
+            // pictureBox41
+            // 
+            this.pictureBox41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox41.Location = new System.Drawing.Point(188, 92);
+            this.pictureBox41.Name = "pictureBox41";
+            this.pictureBox41.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox41.TabIndex = 124;
+            this.pictureBox41.TabStop = false;
+            // 
+            // pictureBox42
+            // 
+            this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox42.Location = new System.Drawing.Point(210, 92);
+            this.pictureBox42.Name = "pictureBox42";
+            this.pictureBox42.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox42.TabIndex = 125;
+            this.pictureBox42.TabStop = false;
+            // 
+            // pictureBox43
+            // 
+            this.pictureBox43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox43.Location = new System.Drawing.Point(232, 92);
+            this.pictureBox43.Name = "pictureBox43";
+            this.pictureBox43.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox43.TabIndex = 126;
+            this.pictureBox43.TabStop = false;
+            // 
+            // pictureBox44
+            // 
+            this.pictureBox44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox44.Location = new System.Drawing.Point(254, 92);
+            this.pictureBox44.Name = "pictureBox44";
+            this.pictureBox44.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox44.TabIndex = 127;
+            this.pictureBox44.TabStop = false;
+            // 
+            // pictureBox45
+            // 
+            this.pictureBox45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox45.Location = new System.Drawing.Point(276, 92);
+            this.pictureBox45.Name = "pictureBox45";
+            this.pictureBox45.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox45.TabIndex = 128;
+            this.pictureBox45.TabStop = false;
+            // 
+            // pictureBox46
+            // 
+            this.pictureBox46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox46.Location = new System.Drawing.Point(298, 92);
+            this.pictureBox46.Name = "pictureBox46";
+            this.pictureBox46.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox46.TabIndex = 129;
+            this.pictureBox46.TabStop = false;
+            // 
+            // pictureBox47
+            // 
+            this.pictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox47.Location = new System.Drawing.Point(320, 92);
+            this.pictureBox47.Name = "pictureBox47";
+            this.pictureBox47.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox47.TabIndex = 130;
+            this.pictureBox47.TabStop = false;
+            // 
+            // pictureBox48
+            // 
+            this.pictureBox48.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox48.Location = new System.Drawing.Point(342, 92);
+            this.pictureBox48.Name = "pictureBox48";
+            this.pictureBox48.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox48.TabIndex = 131;
+            this.pictureBox48.TabStop = false;
+            // 
+            // pictureBox49
+            // 
+            this.pictureBox49.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox49.Location = new System.Drawing.Point(12, 114);
+            this.pictureBox49.Name = "pictureBox49";
+            this.pictureBox49.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox49.TabIndex = 132;
+            this.pictureBox49.TabStop = false;
+            // 
+            // pictureBox50
+            // 
+            this.pictureBox50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox50.Location = new System.Drawing.Point(34, 114);
+            this.pictureBox50.Name = "pictureBox50";
+            this.pictureBox50.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox50.TabIndex = 133;
+            this.pictureBox50.TabStop = false;
+            // 
+            // pictureBox51
+            // 
+            this.pictureBox51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox51.Location = new System.Drawing.Point(56, 114);
+            this.pictureBox51.Name = "pictureBox51";
+            this.pictureBox51.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox51.TabIndex = 134;
+            this.pictureBox51.TabStop = false;
+            // 
+            // pictureBox52
+            // 
+            this.pictureBox52.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox52.Location = new System.Drawing.Point(78, 114);
+            this.pictureBox52.Name = "pictureBox52";
+            this.pictureBox52.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox52.TabIndex = 135;
+            this.pictureBox52.TabStop = false;
+            // 
+            // pictureBox53
+            // 
+            this.pictureBox53.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox53.Location = new System.Drawing.Point(100, 114);
+            this.pictureBox53.Name = "pictureBox53";
+            this.pictureBox53.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox53.TabIndex = 136;
+            this.pictureBox53.TabStop = false;
+            // 
+            // pictureBox54
+            // 
+            this.pictureBox54.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox54.Location = new System.Drawing.Point(122, 114);
+            this.pictureBox54.Name = "pictureBox54";
+            this.pictureBox54.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox54.TabIndex = 137;
+            this.pictureBox54.TabStop = false;
+            // 
+            // pictureBox55
+            // 
+            this.pictureBox55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox55.Location = new System.Drawing.Point(144, 114);
+            this.pictureBox55.Name = "pictureBox55";
+            this.pictureBox55.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox55.TabIndex = 138;
+            this.pictureBox55.TabStop = false;
+            // 
+            // pictureBox56
+            // 
+            this.pictureBox56.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox56.Location = new System.Drawing.Point(166, 114);
+            this.pictureBox56.Name = "pictureBox56";
+            this.pictureBox56.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox56.TabIndex = 139;
+            this.pictureBox56.TabStop = false;
+            // 
+            // pictureBox57
+            // 
+            this.pictureBox57.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox57.Location = new System.Drawing.Point(188, 114);
+            this.pictureBox57.Name = "pictureBox57";
+            this.pictureBox57.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox57.TabIndex = 140;
+            this.pictureBox57.TabStop = false;
+            // 
+            // pictureBox58
+            // 
+            this.pictureBox58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox58.Location = new System.Drawing.Point(210, 114);
+            this.pictureBox58.Name = "pictureBox58";
+            this.pictureBox58.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox58.TabIndex = 141;
+            this.pictureBox58.TabStop = false;
+            // 
+            // pictureBox59
+            // 
+            this.pictureBox59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox59.Location = new System.Drawing.Point(232, 114);
+            this.pictureBox59.Name = "pictureBox59";
+            this.pictureBox59.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox59.TabIndex = 142;
+            this.pictureBox59.TabStop = false;
+            // 
+            // pictureBox60
+            // 
+            this.pictureBox60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox60.Location = new System.Drawing.Point(254, 114);
+            this.pictureBox60.Name = "pictureBox60";
+            this.pictureBox60.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox60.TabIndex = 143;
+            this.pictureBox60.TabStop = false;
+            // 
+            // pictureBox61
+            // 
+            this.pictureBox61.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox61.Location = new System.Drawing.Point(276, 114);
+            this.pictureBox61.Name = "pictureBox61";
+            this.pictureBox61.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox61.TabIndex = 144;
+            this.pictureBox61.TabStop = false;
+            // 
+            // pictureBox62
+            // 
+            this.pictureBox62.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox62.Location = new System.Drawing.Point(298, 114);
+            this.pictureBox62.Name = "pictureBox62";
+            this.pictureBox62.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox62.TabIndex = 145;
+            this.pictureBox62.TabStop = false;
+            // 
+            // pictureBox63
+            // 
+            this.pictureBox63.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox63.Location = new System.Drawing.Point(320, 114);
+            this.pictureBox63.Name = "pictureBox63";
+            this.pictureBox63.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox63.TabIndex = 146;
+            this.pictureBox63.TabStop = false;
+            // 
+            // pictureBox64
+            // 
+            this.pictureBox64.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox64.Location = new System.Drawing.Point(342, 114);
+            this.pictureBox64.Name = "pictureBox64";
+            this.pictureBox64.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox64.TabIndex = 147;
+            this.pictureBox64.TabStop = false;
+            // 
+            // pictureBox65
+            // 
+            this.pictureBox65.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox65.Location = new System.Drawing.Point(12, 136);
+            this.pictureBox65.Name = "pictureBox65";
+            this.pictureBox65.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox65.TabIndex = 148;
+            this.pictureBox65.TabStop = false;
+            // 
+            // pictureBox66
+            // 
+            this.pictureBox66.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox66.Location = new System.Drawing.Point(34, 136);
+            this.pictureBox66.Name = "pictureBox66";
+            this.pictureBox66.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox66.TabIndex = 149;
+            this.pictureBox66.TabStop = false;
+            // 
+            // pictureBox67
+            // 
+            this.pictureBox67.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox67.Location = new System.Drawing.Point(56, 136);
+            this.pictureBox67.Name = "pictureBox67";
+            this.pictureBox67.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox67.TabIndex = 150;
+            this.pictureBox67.TabStop = false;
+            // 
+            // pictureBox68
+            // 
+            this.pictureBox68.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox68.Location = new System.Drawing.Point(78, 136);
+            this.pictureBox68.Name = "pictureBox68";
+            this.pictureBox68.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox68.TabIndex = 151;
+            this.pictureBox68.TabStop = false;
+            // 
+            // pictureBox69
+            // 
+            this.pictureBox69.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox69.Location = new System.Drawing.Point(100, 136);
+            this.pictureBox69.Name = "pictureBox69";
+            this.pictureBox69.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox69.TabIndex = 152;
+            this.pictureBox69.TabStop = false;
+            // 
+            // pictureBox70
+            // 
+            this.pictureBox70.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox70.Location = new System.Drawing.Point(122, 136);
+            this.pictureBox70.Name = "pictureBox70";
+            this.pictureBox70.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox70.TabIndex = 153;
+            this.pictureBox70.TabStop = false;
+            // 
+            // pictureBox71
+            // 
+            this.pictureBox71.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox71.Location = new System.Drawing.Point(144, 136);
+            this.pictureBox71.Name = "pictureBox71";
+            this.pictureBox71.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox71.TabIndex = 154;
+            this.pictureBox71.TabStop = false;
+            // 
+            // pictureBox72
+            // 
+            this.pictureBox72.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox72.Location = new System.Drawing.Point(166, 136);
+            this.pictureBox72.Name = "pictureBox72";
+            this.pictureBox72.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox72.TabIndex = 155;
+            this.pictureBox72.TabStop = false;
+            // 
+            // pictureBox73
+            // 
+            this.pictureBox73.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox73.Location = new System.Drawing.Point(188, 136);
+            this.pictureBox73.Name = "pictureBox73";
+            this.pictureBox73.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox73.TabIndex = 156;
+            this.pictureBox73.TabStop = false;
+            // 
+            // pictureBox74
+            // 
+            this.pictureBox74.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox74.Location = new System.Drawing.Point(210, 136);
+            this.pictureBox74.Name = "pictureBox74";
+            this.pictureBox74.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox74.TabIndex = 157;
+            this.pictureBox74.TabStop = false;
+            // 
+            // pictureBox75
+            // 
+            this.pictureBox75.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox75.Location = new System.Drawing.Point(232, 136);
+            this.pictureBox75.Name = "pictureBox75";
+            this.pictureBox75.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox75.TabIndex = 158;
+            this.pictureBox75.TabStop = false;
+            // 
+            // pictureBox76
+            // 
+            this.pictureBox76.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox76.Location = new System.Drawing.Point(254, 136);
+            this.pictureBox76.Name = "pictureBox76";
+            this.pictureBox76.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox76.TabIndex = 159;
+            this.pictureBox76.TabStop = false;
+            // 
+            // pictureBox77
+            // 
+            this.pictureBox77.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox77.Location = new System.Drawing.Point(276, 136);
+            this.pictureBox77.Name = "pictureBox77";
+            this.pictureBox77.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox77.TabIndex = 160;
+            this.pictureBox77.TabStop = false;
+            // 
+            // pictureBox78
+            // 
+            this.pictureBox78.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox78.Location = new System.Drawing.Point(298, 136);
+            this.pictureBox78.Name = "pictureBox78";
+            this.pictureBox78.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox78.TabIndex = 161;
+            this.pictureBox78.TabStop = false;
+            // 
+            // pictureBox79
+            // 
+            this.pictureBox79.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox79.Location = new System.Drawing.Point(320, 136);
+            this.pictureBox79.Name = "pictureBox79";
+            this.pictureBox79.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox79.TabIndex = 162;
+            this.pictureBox79.TabStop = false;
+            // 
+            // pictureBox80
+            // 
+            this.pictureBox80.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox80.Location = new System.Drawing.Point(342, 136);
+            this.pictureBox80.Name = "pictureBox80";
+            this.pictureBox80.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox80.TabIndex = 163;
+            this.pictureBox80.TabStop = false;
+            // 
+            // pictureBox81
+            // 
+            this.pictureBox81.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox81.Location = new System.Drawing.Point(12, 158);
+            this.pictureBox81.Name = "pictureBox81";
+            this.pictureBox81.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox81.TabIndex = 164;
+            this.pictureBox81.TabStop = false;
+            // 
+            // pictureBox82
+            // 
+            this.pictureBox82.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox82.Location = new System.Drawing.Point(34, 158);
+            this.pictureBox82.Name = "pictureBox82";
+            this.pictureBox82.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox82.TabIndex = 165;
+            this.pictureBox82.TabStop = false;
+            // 
+            // pictureBox83
+            // 
+            this.pictureBox83.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox83.Location = new System.Drawing.Point(56, 158);
+            this.pictureBox83.Name = "pictureBox83";
+            this.pictureBox83.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox83.TabIndex = 166;
+            this.pictureBox83.TabStop = false;
+            // 
+            // pictureBox84
+            // 
+            this.pictureBox84.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox84.Location = new System.Drawing.Point(78, 158);
+            this.pictureBox84.Name = "pictureBox84";
+            this.pictureBox84.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox84.TabIndex = 167;
+            this.pictureBox84.TabStop = false;
+            // 
+            // pictureBox85
+            // 
+            this.pictureBox85.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox85.Location = new System.Drawing.Point(100, 158);
+            this.pictureBox85.Name = "pictureBox85";
+            this.pictureBox85.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox85.TabIndex = 168;
+            this.pictureBox85.TabStop = false;
+            // 
+            // pictureBox86
+            // 
+            this.pictureBox86.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox86.Location = new System.Drawing.Point(122, 158);
+            this.pictureBox86.Name = "pictureBox86";
+            this.pictureBox86.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox86.TabIndex = 169;
+            this.pictureBox86.TabStop = false;
+            // 
+            // pictureBox87
+            // 
+            this.pictureBox87.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox87.Location = new System.Drawing.Point(144, 158);
+            this.pictureBox87.Name = "pictureBox87";
+            this.pictureBox87.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox87.TabIndex = 170;
+            this.pictureBox87.TabStop = false;
+            // 
+            // pictureBox88
+            // 
+            this.pictureBox88.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox88.Location = new System.Drawing.Point(166, 158);
+            this.pictureBox88.Name = "pictureBox88";
+            this.pictureBox88.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox88.TabIndex = 171;
+            this.pictureBox88.TabStop = false;
+            // 
+            // pictureBox89
+            // 
+            this.pictureBox89.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox89.Location = new System.Drawing.Point(188, 158);
+            this.pictureBox89.Name = "pictureBox89";
+            this.pictureBox89.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox89.TabIndex = 172;
+            this.pictureBox89.TabStop = false;
+            // 
+            // pictureBox90
+            // 
+            this.pictureBox90.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox90.Location = new System.Drawing.Point(210, 158);
+            this.pictureBox90.Name = "pictureBox90";
+            this.pictureBox90.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox90.TabIndex = 173;
+            this.pictureBox90.TabStop = false;
+            // 
+            // pictureBox91
+            // 
+            this.pictureBox91.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox91.Location = new System.Drawing.Point(232, 158);
+            this.pictureBox91.Name = "pictureBox91";
+            this.pictureBox91.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox91.TabIndex = 174;
+            this.pictureBox91.TabStop = false;
+            // 
+            // pictureBox92
+            // 
+            this.pictureBox92.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox92.Location = new System.Drawing.Point(254, 158);
+            this.pictureBox92.Name = "pictureBox92";
+            this.pictureBox92.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox92.TabIndex = 175;
+            this.pictureBox92.TabStop = false;
+            // 
+            // pictureBox93
+            // 
+            this.pictureBox93.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox93.Location = new System.Drawing.Point(276, 158);
+            this.pictureBox93.Name = "pictureBox93";
+            this.pictureBox93.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox93.TabIndex = 176;
+            this.pictureBox93.TabStop = false;
+            // 
+            // pictureBox94
+            // 
+            this.pictureBox94.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox94.Location = new System.Drawing.Point(298, 158);
+            this.pictureBox94.Name = "pictureBox94";
+            this.pictureBox94.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox94.TabIndex = 177;
+            this.pictureBox94.TabStop = false;
+            // 
+            // pictureBox95
+            // 
+            this.pictureBox95.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox95.Location = new System.Drawing.Point(320, 158);
+            this.pictureBox95.Name = "pictureBox95";
+            this.pictureBox95.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox95.TabIndex = 178;
+            this.pictureBox95.TabStop = false;
+            // 
+            // pictureBox96
+            // 
+            this.pictureBox96.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox96.Location = new System.Drawing.Point(342, 158);
+            this.pictureBox96.Name = "pictureBox96";
+            this.pictureBox96.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox96.TabIndex = 179;
+            this.pictureBox96.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(369, 209);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox81);
             this.Controls.Add(this.pictureBox82);
             this.Controls.Add(this.pictureBox83);
@@ -1322,24 +1238,27 @@ namespace RSDKv4_Palette_Editor
             this.Controls.Add(this.pictureBox30);
             this.Controls.Add(this.pictureBox31);
             this.Controls.Add(this.pictureBox32);
-            this.Controls.Add(this.pictureBox16);
-            this.Controls.Add(this.pictureBox15);
-            this.Controls.Add(this.pictureBox14);
-            this.Controls.Add(this.pictureBox13);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.pictureBox10);
+            this.Controls.Add(this.pictureBox11);
+            this.Controls.Add(this.pictureBox12);
+            this.Controls.Add(this.pictureBox13);
+            this.Controls.Add(this.pictureBox14);
+            this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.pictureBox16);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MaximizeBox = false;
@@ -1466,6 +1385,10 @@ namespace RSDKv4_Palette_Editor
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox18;
         private System.Windows.Forms.PictureBox pictureBox19;
@@ -1546,10 +1469,6 @@ namespace RSDKv4_Palette_Editor
         private System.Windows.Forms.PictureBox pictureBox94;
         private System.Windows.Forms.PictureBox pictureBox95;
         private System.Windows.Forms.PictureBox pictureBox96;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }
 
