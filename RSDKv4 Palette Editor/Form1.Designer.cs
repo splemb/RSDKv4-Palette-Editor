@@ -441,6 +441,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox17.Size = new System.Drawing.Size(16, 16);
             this.pictureBox17.TabIndex = 100;
             this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox18
             // 
@@ -450,6 +451,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox18.Size = new System.Drawing.Size(16, 16);
             this.pictureBox18.TabIndex = 101;
             this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox19
             // 
@@ -459,6 +461,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox19.Size = new System.Drawing.Size(16, 16);
             this.pictureBox19.TabIndex = 102;
             this.pictureBox19.TabStop = false;
+            this.pictureBox19.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox20
             // 
@@ -468,6 +471,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox20.Size = new System.Drawing.Size(16, 16);
             this.pictureBox20.TabIndex = 103;
             this.pictureBox20.TabStop = false;
+            this.pictureBox20.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox21
             // 
@@ -477,6 +481,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox21.Size = new System.Drawing.Size(16, 16);
             this.pictureBox21.TabIndex = 104;
             this.pictureBox21.TabStop = false;
+            this.pictureBox21.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox22
             // 
@@ -486,6 +491,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox22.Size = new System.Drawing.Size(16, 16);
             this.pictureBox22.TabIndex = 105;
             this.pictureBox22.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox23
             // 
@@ -495,6 +501,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox23.Size = new System.Drawing.Size(16, 16);
             this.pictureBox23.TabIndex = 106;
             this.pictureBox23.TabStop = false;
+            this.pictureBox23.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox24
             // 
@@ -504,6 +511,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox24.Size = new System.Drawing.Size(16, 16);
             this.pictureBox24.TabIndex = 107;
             this.pictureBox24.TabStop = false;
+            this.pictureBox24.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox25
             // 
@@ -513,6 +521,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox25.Size = new System.Drawing.Size(16, 16);
             this.pictureBox25.TabIndex = 108;
             this.pictureBox25.TabStop = false;
+            this.pictureBox25.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox26
             // 
@@ -522,6 +531,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox26.Size = new System.Drawing.Size(16, 16);
             this.pictureBox26.TabIndex = 109;
             this.pictureBox26.TabStop = false;
+            this.pictureBox26.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox27
             // 
@@ -531,6 +541,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox27.Size = new System.Drawing.Size(16, 16);
             this.pictureBox27.TabIndex = 110;
             this.pictureBox27.TabStop = false;
+            this.pictureBox27.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox28
             // 
@@ -540,6 +551,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox28.Size = new System.Drawing.Size(16, 16);
             this.pictureBox28.TabIndex = 111;
             this.pictureBox28.TabStop = false;
+            this.pictureBox28.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox29
             // 
@@ -549,6 +561,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox29.Size = new System.Drawing.Size(16, 16);
             this.pictureBox29.TabIndex = 112;
             this.pictureBox29.TabStop = false;
+            this.pictureBox29.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox30
             // 
@@ -558,6 +571,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox30.Size = new System.Drawing.Size(16, 16);
             this.pictureBox30.TabIndex = 113;
             this.pictureBox30.TabStop = false;
+            this.pictureBox30.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox31
             // 
@@ -567,6 +581,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox31.Size = new System.Drawing.Size(16, 16);
             this.pictureBox31.TabIndex = 114;
             this.pictureBox31.TabStop = false;
+            this.pictureBox31.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox32
             // 
@@ -576,6 +591,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox32.Size = new System.Drawing.Size(16, 16);
             this.pictureBox32.TabIndex = 115;
             this.pictureBox32.TabStop = false;
+            this.pictureBox32.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox33
             // 
@@ -585,6 +601,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox33.Size = new System.Drawing.Size(16, 16);
             this.pictureBox33.TabIndex = 116;
             this.pictureBox33.TabStop = false;
+            this.pictureBox33.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox34
             // 
@@ -594,6 +611,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox34.Size = new System.Drawing.Size(16, 16);
             this.pictureBox34.TabIndex = 117;
             this.pictureBox34.TabStop = false;
+            this.pictureBox34.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox35
             // 
@@ -603,6 +621,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox35.Size = new System.Drawing.Size(16, 16);
             this.pictureBox35.TabIndex = 118;
             this.pictureBox35.TabStop = false;
+            this.pictureBox35.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox36
             // 
@@ -612,6 +631,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox36.Size = new System.Drawing.Size(16, 16);
             this.pictureBox36.TabIndex = 119;
             this.pictureBox36.TabStop = false;
+            this.pictureBox36.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox37
             // 
@@ -621,6 +641,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox37.Size = new System.Drawing.Size(16, 16);
             this.pictureBox37.TabIndex = 120;
             this.pictureBox37.TabStop = false;
+            this.pictureBox37.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox38
             // 
@@ -630,6 +651,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox38.Size = new System.Drawing.Size(16, 16);
             this.pictureBox38.TabIndex = 121;
             this.pictureBox38.TabStop = false;
+            this.pictureBox38.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox39
             // 
@@ -639,6 +661,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox39.Size = new System.Drawing.Size(16, 16);
             this.pictureBox39.TabIndex = 122;
             this.pictureBox39.TabStop = false;
+            this.pictureBox39.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox40
             // 
@@ -648,6 +671,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox40.Size = new System.Drawing.Size(16, 16);
             this.pictureBox40.TabIndex = 123;
             this.pictureBox40.TabStop = false;
+            this.pictureBox40.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox41
             // 
@@ -657,6 +681,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox41.Size = new System.Drawing.Size(16, 16);
             this.pictureBox41.TabIndex = 124;
             this.pictureBox41.TabStop = false;
+            this.pictureBox41.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox42
             // 
@@ -666,6 +691,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox42.Size = new System.Drawing.Size(16, 16);
             this.pictureBox42.TabIndex = 125;
             this.pictureBox42.TabStop = false;
+            this.pictureBox42.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox43
             // 
@@ -675,6 +701,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox43.Size = new System.Drawing.Size(16, 16);
             this.pictureBox43.TabIndex = 126;
             this.pictureBox43.TabStop = false;
+            this.pictureBox43.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox44
             // 
@@ -684,6 +711,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox44.Size = new System.Drawing.Size(16, 16);
             this.pictureBox44.TabIndex = 127;
             this.pictureBox44.TabStop = false;
+            this.pictureBox44.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox45
             // 
@@ -693,6 +721,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox45.Size = new System.Drawing.Size(16, 16);
             this.pictureBox45.TabIndex = 128;
             this.pictureBox45.TabStop = false;
+            this.pictureBox45.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox46
             // 
@@ -702,6 +731,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox46.Size = new System.Drawing.Size(16, 16);
             this.pictureBox46.TabIndex = 129;
             this.pictureBox46.TabStop = false;
+            this.pictureBox46.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox47
             // 
@@ -711,6 +741,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox47.Size = new System.Drawing.Size(16, 16);
             this.pictureBox47.TabIndex = 130;
             this.pictureBox47.TabStop = false;
+            this.pictureBox47.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox48
             // 
@@ -720,6 +751,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox48.Size = new System.Drawing.Size(16, 16);
             this.pictureBox48.TabIndex = 131;
             this.pictureBox48.TabStop = false;
+            this.pictureBox48.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox49
             // 
@@ -729,6 +761,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox49.Size = new System.Drawing.Size(16, 16);
             this.pictureBox49.TabIndex = 132;
             this.pictureBox49.TabStop = false;
+            this.pictureBox49.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox50
             // 
@@ -738,6 +771,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox50.Size = new System.Drawing.Size(16, 16);
             this.pictureBox50.TabIndex = 133;
             this.pictureBox50.TabStop = false;
+            this.pictureBox50.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox51
             // 
@@ -747,6 +781,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox51.Size = new System.Drawing.Size(16, 16);
             this.pictureBox51.TabIndex = 134;
             this.pictureBox51.TabStop = false;
+            this.pictureBox51.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox52
             // 
@@ -756,6 +791,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox52.Size = new System.Drawing.Size(16, 16);
             this.pictureBox52.TabIndex = 135;
             this.pictureBox52.TabStop = false;
+            this.pictureBox52.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox53
             // 
@@ -765,6 +801,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox53.Size = new System.Drawing.Size(16, 16);
             this.pictureBox53.TabIndex = 136;
             this.pictureBox53.TabStop = false;
+            this.pictureBox53.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox54
             // 
@@ -774,6 +811,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox54.Size = new System.Drawing.Size(16, 16);
             this.pictureBox54.TabIndex = 137;
             this.pictureBox54.TabStop = false;
+            this.pictureBox54.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox55
             // 
@@ -783,6 +821,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox55.Size = new System.Drawing.Size(16, 16);
             this.pictureBox55.TabIndex = 138;
             this.pictureBox55.TabStop = false;
+            this.pictureBox55.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox56
             // 
@@ -792,6 +831,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox56.Size = new System.Drawing.Size(16, 16);
             this.pictureBox56.TabIndex = 139;
             this.pictureBox56.TabStop = false;
+            this.pictureBox56.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox57
             // 
@@ -801,6 +841,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox57.Size = new System.Drawing.Size(16, 16);
             this.pictureBox57.TabIndex = 140;
             this.pictureBox57.TabStop = false;
+            this.pictureBox57.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox58
             // 
@@ -810,6 +851,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox58.Size = new System.Drawing.Size(16, 16);
             this.pictureBox58.TabIndex = 141;
             this.pictureBox58.TabStop = false;
+            this.pictureBox58.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox59
             // 
@@ -819,6 +861,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox59.Size = new System.Drawing.Size(16, 16);
             this.pictureBox59.TabIndex = 142;
             this.pictureBox59.TabStop = false;
+            this.pictureBox59.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox60
             // 
@@ -828,6 +871,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox60.Size = new System.Drawing.Size(16, 16);
             this.pictureBox60.TabIndex = 143;
             this.pictureBox60.TabStop = false;
+            this.pictureBox60.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox61
             // 
@@ -837,6 +881,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox61.Size = new System.Drawing.Size(16, 16);
             this.pictureBox61.TabIndex = 144;
             this.pictureBox61.TabStop = false;
+            this.pictureBox61.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox62
             // 
@@ -846,6 +891,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox62.Size = new System.Drawing.Size(16, 16);
             this.pictureBox62.TabIndex = 145;
             this.pictureBox62.TabStop = false;
+            this.pictureBox62.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox63
             // 
@@ -855,6 +901,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox63.Size = new System.Drawing.Size(16, 16);
             this.pictureBox63.TabIndex = 146;
             this.pictureBox63.TabStop = false;
+            this.pictureBox63.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox64
             // 
@@ -864,6 +911,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox64.Size = new System.Drawing.Size(16, 16);
             this.pictureBox64.TabIndex = 147;
             this.pictureBox64.TabStop = false;
+            this.pictureBox64.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox65
             // 
@@ -873,6 +921,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox65.Size = new System.Drawing.Size(16, 16);
             this.pictureBox65.TabIndex = 148;
             this.pictureBox65.TabStop = false;
+            this.pictureBox65.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox66
             // 
@@ -882,6 +931,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox66.Size = new System.Drawing.Size(16, 16);
             this.pictureBox66.TabIndex = 149;
             this.pictureBox66.TabStop = false;
+            this.pictureBox66.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox67
             // 
@@ -891,6 +941,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox67.Size = new System.Drawing.Size(16, 16);
             this.pictureBox67.TabIndex = 150;
             this.pictureBox67.TabStop = false;
+            this.pictureBox67.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox68
             // 
@@ -900,6 +951,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox68.Size = new System.Drawing.Size(16, 16);
             this.pictureBox68.TabIndex = 151;
             this.pictureBox68.TabStop = false;
+            this.pictureBox68.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox69
             // 
@@ -909,6 +961,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox69.Size = new System.Drawing.Size(16, 16);
             this.pictureBox69.TabIndex = 152;
             this.pictureBox69.TabStop = false;
+            this.pictureBox69.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox70
             // 
@@ -918,6 +971,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox70.Size = new System.Drawing.Size(16, 16);
             this.pictureBox70.TabIndex = 153;
             this.pictureBox70.TabStop = false;
+            this.pictureBox70.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox71
             // 
@@ -927,6 +981,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox71.Size = new System.Drawing.Size(16, 16);
             this.pictureBox71.TabIndex = 154;
             this.pictureBox71.TabStop = false;
+            this.pictureBox71.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox72
             // 
@@ -936,6 +991,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox72.Size = new System.Drawing.Size(16, 16);
             this.pictureBox72.TabIndex = 155;
             this.pictureBox72.TabStop = false;
+            this.pictureBox72.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox73
             // 
@@ -945,6 +1001,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox73.Size = new System.Drawing.Size(16, 16);
             this.pictureBox73.TabIndex = 156;
             this.pictureBox73.TabStop = false;
+            this.pictureBox73.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox74
             // 
@@ -954,6 +1011,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox74.Size = new System.Drawing.Size(16, 16);
             this.pictureBox74.TabIndex = 157;
             this.pictureBox74.TabStop = false;
+            this.pictureBox74.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox75
             // 
@@ -963,6 +1021,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox75.Size = new System.Drawing.Size(16, 16);
             this.pictureBox75.TabIndex = 158;
             this.pictureBox75.TabStop = false;
+            this.pictureBox75.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox76
             // 
@@ -972,6 +1031,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox76.Size = new System.Drawing.Size(16, 16);
             this.pictureBox76.TabIndex = 159;
             this.pictureBox76.TabStop = false;
+            this.pictureBox76.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox77
             // 
@@ -981,6 +1041,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox77.Size = new System.Drawing.Size(16, 16);
             this.pictureBox77.TabIndex = 160;
             this.pictureBox77.TabStop = false;
+            this.pictureBox77.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox78
             // 
@@ -990,6 +1051,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox78.Size = new System.Drawing.Size(16, 16);
             this.pictureBox78.TabIndex = 161;
             this.pictureBox78.TabStop = false;
+            this.pictureBox78.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox79
             // 
@@ -999,6 +1061,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox79.Size = new System.Drawing.Size(16, 16);
             this.pictureBox79.TabIndex = 162;
             this.pictureBox79.TabStop = false;
+            this.pictureBox79.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox80
             // 
@@ -1008,6 +1071,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox80.Size = new System.Drawing.Size(16, 16);
             this.pictureBox80.TabIndex = 163;
             this.pictureBox80.TabStop = false;
+            this.pictureBox80.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox81
             // 
@@ -1017,6 +1081,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox81.Size = new System.Drawing.Size(16, 16);
             this.pictureBox81.TabIndex = 164;
             this.pictureBox81.TabStop = false;
+            this.pictureBox81.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox82
             // 
@@ -1026,6 +1091,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox82.Size = new System.Drawing.Size(16, 16);
             this.pictureBox82.TabIndex = 165;
             this.pictureBox82.TabStop = false;
+            this.pictureBox82.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox83
             // 
@@ -1035,6 +1101,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox83.Size = new System.Drawing.Size(16, 16);
             this.pictureBox83.TabIndex = 166;
             this.pictureBox83.TabStop = false;
+            this.pictureBox83.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox84
             // 
@@ -1044,6 +1111,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox84.Size = new System.Drawing.Size(16, 16);
             this.pictureBox84.TabIndex = 167;
             this.pictureBox84.TabStop = false;
+            this.pictureBox84.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox85
             // 
@@ -1053,6 +1121,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox85.Size = new System.Drawing.Size(16, 16);
             this.pictureBox85.TabIndex = 168;
             this.pictureBox85.TabStop = false;
+            this.pictureBox85.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox86
             // 
@@ -1062,6 +1131,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox86.Size = new System.Drawing.Size(16, 16);
             this.pictureBox86.TabIndex = 169;
             this.pictureBox86.TabStop = false;
+            this.pictureBox86.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox87
             // 
@@ -1071,6 +1141,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox87.Size = new System.Drawing.Size(16, 16);
             this.pictureBox87.TabIndex = 170;
             this.pictureBox87.TabStop = false;
+            this.pictureBox87.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox88
             // 
@@ -1080,6 +1151,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox88.Size = new System.Drawing.Size(16, 16);
             this.pictureBox88.TabIndex = 171;
             this.pictureBox88.TabStop = false;
+            this.pictureBox88.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox89
             // 
@@ -1089,6 +1161,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox89.Size = new System.Drawing.Size(16, 16);
             this.pictureBox89.TabIndex = 172;
             this.pictureBox89.TabStop = false;
+            this.pictureBox89.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox90
             // 
@@ -1098,6 +1171,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox90.Size = new System.Drawing.Size(16, 16);
             this.pictureBox90.TabIndex = 173;
             this.pictureBox90.TabStop = false;
+            this.pictureBox90.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox91
             // 
@@ -1107,6 +1181,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox91.Size = new System.Drawing.Size(16, 16);
             this.pictureBox91.TabIndex = 174;
             this.pictureBox91.TabStop = false;
+            this.pictureBox91.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox92
             // 
@@ -1116,6 +1191,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox92.Size = new System.Drawing.Size(16, 16);
             this.pictureBox92.TabIndex = 175;
             this.pictureBox92.TabStop = false;
+            this.pictureBox92.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox93
             // 
@@ -1125,6 +1201,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox93.Size = new System.Drawing.Size(16, 16);
             this.pictureBox93.TabIndex = 176;
             this.pictureBox93.TabStop = false;
+            this.pictureBox93.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox94
             // 
@@ -1134,6 +1211,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox94.Size = new System.Drawing.Size(16, 16);
             this.pictureBox94.TabIndex = 177;
             this.pictureBox94.TabStop = false;
+            this.pictureBox94.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox95
             // 
@@ -1143,6 +1221,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox95.Size = new System.Drawing.Size(16, 16);
             this.pictureBox95.TabIndex = 178;
             this.pictureBox95.TabStop = false;
+            this.pictureBox95.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // pictureBox96
             // 
@@ -1152,6 +1231,7 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox96.Size = new System.Drawing.Size(16, 16);
             this.pictureBox96.TabIndex = 179;
             this.pictureBox96.TabStop = false;
+            this.pictureBox96.Click += new System.EventHandler(this.colorBox_Click);
             // 
             // Form1
             // 
