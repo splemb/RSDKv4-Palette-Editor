@@ -47,8 +47,8 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnOpen = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
@@ -131,6 +131,40 @@ namespace RSDKv4_Palette_Editor
             this.pictureBox94 = new System.Windows.Forms.PictureBox();
             this.pictureBox95 = new System.Windows.Forms.PictureBox();
             this.pictureBox96 = new System.Windows.Forms.PictureBox();
+            this.listPalettes = new System.Windows.Forms.ListBox();
+            this.pictureBox97 = new System.Windows.Forms.PictureBox();
+            this.pictureBox98 = new System.Windows.Forms.PictureBox();
+            this.pictureBox99 = new System.Windows.Forms.PictureBox();
+            this.pictureBox100 = new System.Windows.Forms.PictureBox();
+            this.pictureBox101 = new System.Windows.Forms.PictureBox();
+            this.pictureBox102 = new System.Windows.Forms.PictureBox();
+            this.pictureBox103 = new System.Windows.Forms.PictureBox();
+            this.pictureBox104 = new System.Windows.Forms.PictureBox();
+            this.pictureBox105 = new System.Windows.Forms.PictureBox();
+            this.pictureBox106 = new System.Windows.Forms.PictureBox();
+            this.pictureBox107 = new System.Windows.Forms.PictureBox();
+            this.pictureBox108 = new System.Windows.Forms.PictureBox();
+            this.pictureBox109 = new System.Windows.Forms.PictureBox();
+            this.pictureBox110 = new System.Windows.Forms.PictureBox();
+            this.pictureBox111 = new System.Windows.Forms.PictureBox();
+            this.pictureBox112 = new System.Windows.Forms.PictureBox();
+            this.pictureBox113 = new System.Windows.Forms.PictureBox();
+            this.pictureBox114 = new System.Windows.Forms.PictureBox();
+            this.pictureBox115 = new System.Windows.Forms.PictureBox();
+            this.pictureBox116 = new System.Windows.Forms.PictureBox();
+            this.pictureBox117 = new System.Windows.Forms.PictureBox();
+            this.pictureBox118 = new System.Windows.Forms.PictureBox();
+            this.pictureBox119 = new System.Windows.Forms.PictureBox();
+            this.pictureBox120 = new System.Windows.Forms.PictureBox();
+            this.pictureBox121 = new System.Windows.Forms.PictureBox();
+            this.pictureBox122 = new System.Windows.Forms.PictureBox();
+            this.pictureBox123 = new System.Windows.Forms.PictureBox();
+            this.pictureBox124 = new System.Windows.Forms.PictureBox();
+            this.pictureBox125 = new System.Windows.Forms.PictureBox();
+            this.pictureBox126 = new System.Windows.Forms.PictureBox();
+            this.pictureBox127 = new System.Windows.Forms.PictureBox();
+            this.pictureBox128 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -227,12 +261,45 @@ namespace RSDKv4_Palette_Editor
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox94)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox95)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox96)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox97)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox98)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox101)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox102)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox103)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox104)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox105)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox114)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox115)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox122)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox124)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox125)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox126)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox128)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 48);
+            this.pictureBox1.Enabled = false;
+            this.pictureBox1.Location = new System.Drawing.Point(13, 44);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(16, 16);
             this.pictureBox1.TabIndex = 0;
@@ -247,7 +314,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(34, 48);
+            this.pictureBox2.Enabled = false;
+            this.pictureBox2.Location = new System.Drawing.Point(35, 44);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(16, 16);
             this.pictureBox2.TabIndex = 1;
@@ -257,7 +325,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox3
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Location = new System.Drawing.Point(56, 48);
+            this.pictureBox3.Enabled = false;
+            this.pictureBox3.Location = new System.Drawing.Point(57, 44);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(16, 16);
             this.pictureBox3.TabIndex = 2;
@@ -267,7 +336,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox4
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Location = new System.Drawing.Point(78, 48);
+            this.pictureBox4.Enabled = false;
+            this.pictureBox4.Location = new System.Drawing.Point(79, 44);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(16, 16);
             this.pictureBox4.TabIndex = 3;
@@ -277,7 +347,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox5
             // 
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Location = new System.Drawing.Point(100, 48);
+            this.pictureBox5.Enabled = false;
+            this.pictureBox5.Location = new System.Drawing.Point(101, 44);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(16, 16);
             this.pictureBox5.TabIndex = 4;
@@ -287,7 +358,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox6
             // 
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox6.Location = new System.Drawing.Point(122, 48);
+            this.pictureBox6.Enabled = false;
+            this.pictureBox6.Location = new System.Drawing.Point(123, 44);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(16, 16);
             this.pictureBox6.TabIndex = 5;
@@ -297,7 +369,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox7
             // 
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox7.Location = new System.Drawing.Point(144, 48);
+            this.pictureBox7.Enabled = false;
+            this.pictureBox7.Location = new System.Drawing.Point(145, 44);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(16, 16);
             this.pictureBox7.TabIndex = 6;
@@ -307,7 +380,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox8
             // 
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox8.Location = new System.Drawing.Point(166, 48);
+            this.pictureBox8.Enabled = false;
+            this.pictureBox8.Location = new System.Drawing.Point(167, 44);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(16, 16);
             this.pictureBox8.TabIndex = 7;
@@ -317,7 +391,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox9
             // 
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox9.Location = new System.Drawing.Point(188, 48);
+            this.pictureBox9.Enabled = false;
+            this.pictureBox9.Location = new System.Drawing.Point(189, 44);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(16, 16);
             this.pictureBox9.TabIndex = 8;
@@ -327,7 +402,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox10
             // 
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox10.Location = new System.Drawing.Point(210, 48);
+            this.pictureBox10.Enabled = false;
+            this.pictureBox10.Location = new System.Drawing.Point(211, 44);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(16, 16);
             this.pictureBox10.TabIndex = 9;
@@ -337,7 +413,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox11
             // 
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox11.Location = new System.Drawing.Point(232, 48);
+            this.pictureBox11.Enabled = false;
+            this.pictureBox11.Location = new System.Drawing.Point(233, 44);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(16, 16);
             this.pictureBox11.TabIndex = 10;
@@ -347,7 +424,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox12
             // 
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox12.Location = new System.Drawing.Point(254, 48);
+            this.pictureBox12.Enabled = false;
+            this.pictureBox12.Location = new System.Drawing.Point(255, 44);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(16, 16);
             this.pictureBox12.TabIndex = 11;
@@ -357,7 +435,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox13
             // 
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox13.Location = new System.Drawing.Point(276, 48);
+            this.pictureBox13.Enabled = false;
+            this.pictureBox13.Location = new System.Drawing.Point(277, 44);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(16, 16);
             this.pictureBox13.TabIndex = 12;
@@ -367,7 +446,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox14
             // 
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox14.Location = new System.Drawing.Point(298, 48);
+            this.pictureBox14.Enabled = false;
+            this.pictureBox14.Location = new System.Drawing.Point(299, 44);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(16, 16);
             this.pictureBox14.TabIndex = 13;
@@ -377,7 +457,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox15
             // 
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox15.Location = new System.Drawing.Point(320, 48);
+            this.pictureBox15.Enabled = false;
+            this.pictureBox15.Location = new System.Drawing.Point(321, 44);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(16, 16);
             this.pictureBox15.TabIndex = 14;
@@ -387,47 +468,51 @@ namespace RSDKv4_Palette_Editor
             // pictureBox16
             // 
             this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox16.Location = new System.Drawing.Point(342, 48);
+            this.pictureBox16.Enabled = false;
+            this.pictureBox16.Location = new System.Drawing.Point(343, 44);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(16, 16);
             this.pictureBox16.TabIndex = 15;
             this.pictureBox16.TabStop = false;
             this.pictureBox16.Click += new System.EventHandler(this.colorBox_Click);
             // 
-            // button1
+            // btnSave
             // 
-            this.button1.Location = new System.Drawing.Point(287, 179);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(70, 23);
-            this.button1.TabIndex = 96;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnSave.Enabled = false;
+            this.btnSave.Location = new System.Drawing.Point(414, 12);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(70, 23);
+            this.btnSave.TabIndex = 96;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnOpen
             // 
-            this.button2.Location = new System.Drawing.Point(209, 179);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(70, 23);
-            this.button2.TabIndex = 97;
-            this.button2.Text = "Open";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnOpen.Location = new System.Drawing.Point(364, 12);
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(49, 23);
+            this.btnOpen.TabIndex = 97;
+            this.btnOpen.Text = "Open";
+            this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(5, 9);
+            this.label1.Location = new System.Drawing.Point(7, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(353, 25);
+            this.label1.Size = new System.Drawing.Size(228, 25);
             this.label1.TabIndex = 98;
-            this.label1.Text = "RSDKv4 GameConfig Palette Editor";
+            this.label1.Text = "RSDKv4 Palette Editor";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 184);
+            this.label2.Location = new System.Drawing.Point(241, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 13);
             this.label2.TabIndex = 99;
@@ -436,7 +521,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox17
             // 
             this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox17.Location = new System.Drawing.Point(12, 70);
+            this.pictureBox17.Enabled = false;
+            this.pictureBox17.Location = new System.Drawing.Point(13, 66);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(16, 16);
             this.pictureBox17.TabIndex = 100;
@@ -446,7 +532,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox18
             // 
             this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox18.Location = new System.Drawing.Point(34, 70);
+            this.pictureBox18.Enabled = false;
+            this.pictureBox18.Location = new System.Drawing.Point(35, 66);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(16, 16);
             this.pictureBox18.TabIndex = 101;
@@ -456,7 +543,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox19
             // 
             this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox19.Location = new System.Drawing.Point(56, 70);
+            this.pictureBox19.Enabled = false;
+            this.pictureBox19.Location = new System.Drawing.Point(57, 66);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(16, 16);
             this.pictureBox19.TabIndex = 102;
@@ -466,7 +554,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox20
             // 
             this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox20.Location = new System.Drawing.Point(78, 70);
+            this.pictureBox20.Enabled = false;
+            this.pictureBox20.Location = new System.Drawing.Point(79, 66);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(16, 16);
             this.pictureBox20.TabIndex = 103;
@@ -476,7 +565,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox21
             // 
             this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox21.Location = new System.Drawing.Point(100, 70);
+            this.pictureBox21.Enabled = false;
+            this.pictureBox21.Location = new System.Drawing.Point(101, 66);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(16, 16);
             this.pictureBox21.TabIndex = 104;
@@ -486,7 +576,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox22
             // 
             this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox22.Location = new System.Drawing.Point(122, 70);
+            this.pictureBox22.Enabled = false;
+            this.pictureBox22.Location = new System.Drawing.Point(123, 66);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(16, 16);
             this.pictureBox22.TabIndex = 105;
@@ -496,7 +587,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox23
             // 
             this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox23.Location = new System.Drawing.Point(144, 70);
+            this.pictureBox23.Enabled = false;
+            this.pictureBox23.Location = new System.Drawing.Point(145, 66);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(16, 16);
             this.pictureBox23.TabIndex = 106;
@@ -506,7 +598,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox24
             // 
             this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox24.Location = new System.Drawing.Point(166, 70);
+            this.pictureBox24.Enabled = false;
+            this.pictureBox24.Location = new System.Drawing.Point(167, 66);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(16, 16);
             this.pictureBox24.TabIndex = 107;
@@ -516,7 +609,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox25
             // 
             this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox25.Location = new System.Drawing.Point(188, 70);
+            this.pictureBox25.Enabled = false;
+            this.pictureBox25.Location = new System.Drawing.Point(189, 66);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(16, 16);
             this.pictureBox25.TabIndex = 108;
@@ -526,7 +620,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox26
             // 
             this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox26.Location = new System.Drawing.Point(210, 70);
+            this.pictureBox26.Enabled = false;
+            this.pictureBox26.Location = new System.Drawing.Point(211, 66);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(16, 16);
             this.pictureBox26.TabIndex = 109;
@@ -536,7 +631,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox27
             // 
             this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox27.Location = new System.Drawing.Point(232, 70);
+            this.pictureBox27.Enabled = false;
+            this.pictureBox27.Location = new System.Drawing.Point(233, 66);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(16, 16);
             this.pictureBox27.TabIndex = 110;
@@ -546,7 +642,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox28
             // 
             this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox28.Location = new System.Drawing.Point(254, 70);
+            this.pictureBox28.Enabled = false;
+            this.pictureBox28.Location = new System.Drawing.Point(255, 66);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(16, 16);
             this.pictureBox28.TabIndex = 111;
@@ -556,7 +653,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox29
             // 
             this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox29.Location = new System.Drawing.Point(276, 70);
+            this.pictureBox29.Enabled = false;
+            this.pictureBox29.Location = new System.Drawing.Point(277, 66);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(16, 16);
             this.pictureBox29.TabIndex = 112;
@@ -566,7 +664,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox30
             // 
             this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox30.Location = new System.Drawing.Point(298, 70);
+            this.pictureBox30.Enabled = false;
+            this.pictureBox30.Location = new System.Drawing.Point(299, 66);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(16, 16);
             this.pictureBox30.TabIndex = 113;
@@ -576,7 +675,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox31
             // 
             this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox31.Location = new System.Drawing.Point(320, 70);
+            this.pictureBox31.Enabled = false;
+            this.pictureBox31.Location = new System.Drawing.Point(321, 66);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(16, 16);
             this.pictureBox31.TabIndex = 114;
@@ -586,7 +686,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox32
             // 
             this.pictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox32.Location = new System.Drawing.Point(342, 70);
+            this.pictureBox32.Enabled = false;
+            this.pictureBox32.Location = new System.Drawing.Point(343, 66);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(16, 16);
             this.pictureBox32.TabIndex = 115;
@@ -596,7 +697,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox33
             // 
             this.pictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox33.Location = new System.Drawing.Point(12, 92);
+            this.pictureBox33.Enabled = false;
+            this.pictureBox33.Location = new System.Drawing.Point(13, 88);
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.Size = new System.Drawing.Size(16, 16);
             this.pictureBox33.TabIndex = 116;
@@ -606,7 +708,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox34
             // 
             this.pictureBox34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox34.Location = new System.Drawing.Point(34, 92);
+            this.pictureBox34.Enabled = false;
+            this.pictureBox34.Location = new System.Drawing.Point(35, 88);
             this.pictureBox34.Name = "pictureBox34";
             this.pictureBox34.Size = new System.Drawing.Size(16, 16);
             this.pictureBox34.TabIndex = 117;
@@ -616,7 +719,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox35
             // 
             this.pictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox35.Location = new System.Drawing.Point(56, 92);
+            this.pictureBox35.Enabled = false;
+            this.pictureBox35.Location = new System.Drawing.Point(57, 88);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(16, 16);
             this.pictureBox35.TabIndex = 118;
@@ -626,7 +730,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox36
             // 
             this.pictureBox36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox36.Location = new System.Drawing.Point(78, 92);
+            this.pictureBox36.Enabled = false;
+            this.pictureBox36.Location = new System.Drawing.Point(79, 88);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(16, 16);
             this.pictureBox36.TabIndex = 119;
@@ -636,7 +741,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox37
             // 
             this.pictureBox37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox37.Location = new System.Drawing.Point(100, 92);
+            this.pictureBox37.Enabled = false;
+            this.pictureBox37.Location = new System.Drawing.Point(101, 88);
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.Size = new System.Drawing.Size(16, 16);
             this.pictureBox37.TabIndex = 120;
@@ -646,7 +752,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox38
             // 
             this.pictureBox38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox38.Location = new System.Drawing.Point(122, 92);
+            this.pictureBox38.Enabled = false;
+            this.pictureBox38.Location = new System.Drawing.Point(123, 88);
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.Size = new System.Drawing.Size(16, 16);
             this.pictureBox38.TabIndex = 121;
@@ -656,7 +763,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox39
             // 
             this.pictureBox39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox39.Location = new System.Drawing.Point(144, 92);
+            this.pictureBox39.Enabled = false;
+            this.pictureBox39.Location = new System.Drawing.Point(145, 88);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(16, 16);
             this.pictureBox39.TabIndex = 122;
@@ -666,7 +774,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox40
             // 
             this.pictureBox40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox40.Location = new System.Drawing.Point(166, 92);
+            this.pictureBox40.Enabled = false;
+            this.pictureBox40.Location = new System.Drawing.Point(167, 88);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(16, 16);
             this.pictureBox40.TabIndex = 123;
@@ -676,7 +785,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox41
             // 
             this.pictureBox41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox41.Location = new System.Drawing.Point(188, 92);
+            this.pictureBox41.Enabled = false;
+            this.pictureBox41.Location = new System.Drawing.Point(189, 88);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(16, 16);
             this.pictureBox41.TabIndex = 124;
@@ -686,7 +796,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox42
             // 
             this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox42.Location = new System.Drawing.Point(210, 92);
+            this.pictureBox42.Enabled = false;
+            this.pictureBox42.Location = new System.Drawing.Point(211, 88);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(16, 16);
             this.pictureBox42.TabIndex = 125;
@@ -696,7 +807,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox43
             // 
             this.pictureBox43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox43.Location = new System.Drawing.Point(232, 92);
+            this.pictureBox43.Enabled = false;
+            this.pictureBox43.Location = new System.Drawing.Point(233, 88);
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.Size = new System.Drawing.Size(16, 16);
             this.pictureBox43.TabIndex = 126;
@@ -706,7 +818,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox44
             // 
             this.pictureBox44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox44.Location = new System.Drawing.Point(254, 92);
+            this.pictureBox44.Enabled = false;
+            this.pictureBox44.Location = new System.Drawing.Point(255, 88);
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.Size = new System.Drawing.Size(16, 16);
             this.pictureBox44.TabIndex = 127;
@@ -716,7 +829,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox45
             // 
             this.pictureBox45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox45.Location = new System.Drawing.Point(276, 92);
+            this.pictureBox45.Enabled = false;
+            this.pictureBox45.Location = new System.Drawing.Point(277, 88);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(16, 16);
             this.pictureBox45.TabIndex = 128;
@@ -726,7 +840,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox46
             // 
             this.pictureBox46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox46.Location = new System.Drawing.Point(298, 92);
+            this.pictureBox46.Enabled = false;
+            this.pictureBox46.Location = new System.Drawing.Point(299, 88);
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.Size = new System.Drawing.Size(16, 16);
             this.pictureBox46.TabIndex = 129;
@@ -736,7 +851,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox47
             // 
             this.pictureBox47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox47.Location = new System.Drawing.Point(320, 92);
+            this.pictureBox47.Enabled = false;
+            this.pictureBox47.Location = new System.Drawing.Point(321, 88);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(16, 16);
             this.pictureBox47.TabIndex = 130;
@@ -746,7 +862,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox48
             // 
             this.pictureBox48.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox48.Location = new System.Drawing.Point(342, 92);
+            this.pictureBox48.Enabled = false;
+            this.pictureBox48.Location = new System.Drawing.Point(343, 88);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(16, 16);
             this.pictureBox48.TabIndex = 131;
@@ -756,7 +873,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox49
             // 
             this.pictureBox49.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox49.Location = new System.Drawing.Point(12, 114);
+            this.pictureBox49.Enabled = false;
+            this.pictureBox49.Location = new System.Drawing.Point(13, 110);
             this.pictureBox49.Name = "pictureBox49";
             this.pictureBox49.Size = new System.Drawing.Size(16, 16);
             this.pictureBox49.TabIndex = 132;
@@ -766,7 +884,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox50
             // 
             this.pictureBox50.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox50.Location = new System.Drawing.Point(34, 114);
+            this.pictureBox50.Enabled = false;
+            this.pictureBox50.Location = new System.Drawing.Point(35, 110);
             this.pictureBox50.Name = "pictureBox50";
             this.pictureBox50.Size = new System.Drawing.Size(16, 16);
             this.pictureBox50.TabIndex = 133;
@@ -776,7 +895,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox51
             // 
             this.pictureBox51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox51.Location = new System.Drawing.Point(56, 114);
+            this.pictureBox51.Enabled = false;
+            this.pictureBox51.Location = new System.Drawing.Point(57, 110);
             this.pictureBox51.Name = "pictureBox51";
             this.pictureBox51.Size = new System.Drawing.Size(16, 16);
             this.pictureBox51.TabIndex = 134;
@@ -786,7 +906,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox52
             // 
             this.pictureBox52.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox52.Location = new System.Drawing.Point(78, 114);
+            this.pictureBox52.Enabled = false;
+            this.pictureBox52.Location = new System.Drawing.Point(79, 110);
             this.pictureBox52.Name = "pictureBox52";
             this.pictureBox52.Size = new System.Drawing.Size(16, 16);
             this.pictureBox52.TabIndex = 135;
@@ -796,7 +917,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox53
             // 
             this.pictureBox53.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox53.Location = new System.Drawing.Point(100, 114);
+            this.pictureBox53.Enabled = false;
+            this.pictureBox53.Location = new System.Drawing.Point(101, 110);
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.Size = new System.Drawing.Size(16, 16);
             this.pictureBox53.TabIndex = 136;
@@ -806,7 +928,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox54
             // 
             this.pictureBox54.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox54.Location = new System.Drawing.Point(122, 114);
+            this.pictureBox54.Enabled = false;
+            this.pictureBox54.Location = new System.Drawing.Point(123, 110);
             this.pictureBox54.Name = "pictureBox54";
             this.pictureBox54.Size = new System.Drawing.Size(16, 16);
             this.pictureBox54.TabIndex = 137;
@@ -816,7 +939,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox55
             // 
             this.pictureBox55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox55.Location = new System.Drawing.Point(144, 114);
+            this.pictureBox55.Enabled = false;
+            this.pictureBox55.Location = new System.Drawing.Point(145, 110);
             this.pictureBox55.Name = "pictureBox55";
             this.pictureBox55.Size = new System.Drawing.Size(16, 16);
             this.pictureBox55.TabIndex = 138;
@@ -826,7 +950,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox56
             // 
             this.pictureBox56.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox56.Location = new System.Drawing.Point(166, 114);
+            this.pictureBox56.Enabled = false;
+            this.pictureBox56.Location = new System.Drawing.Point(167, 110);
             this.pictureBox56.Name = "pictureBox56";
             this.pictureBox56.Size = new System.Drawing.Size(16, 16);
             this.pictureBox56.TabIndex = 139;
@@ -836,7 +961,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox57
             // 
             this.pictureBox57.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox57.Location = new System.Drawing.Point(188, 114);
+            this.pictureBox57.Enabled = false;
+            this.pictureBox57.Location = new System.Drawing.Point(189, 110);
             this.pictureBox57.Name = "pictureBox57";
             this.pictureBox57.Size = new System.Drawing.Size(16, 16);
             this.pictureBox57.TabIndex = 140;
@@ -846,7 +972,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox58
             // 
             this.pictureBox58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox58.Location = new System.Drawing.Point(210, 114);
+            this.pictureBox58.Enabled = false;
+            this.pictureBox58.Location = new System.Drawing.Point(211, 110);
             this.pictureBox58.Name = "pictureBox58";
             this.pictureBox58.Size = new System.Drawing.Size(16, 16);
             this.pictureBox58.TabIndex = 141;
@@ -856,7 +983,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox59
             // 
             this.pictureBox59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox59.Location = new System.Drawing.Point(232, 114);
+            this.pictureBox59.Enabled = false;
+            this.pictureBox59.Location = new System.Drawing.Point(233, 110);
             this.pictureBox59.Name = "pictureBox59";
             this.pictureBox59.Size = new System.Drawing.Size(16, 16);
             this.pictureBox59.TabIndex = 142;
@@ -866,7 +994,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox60
             // 
             this.pictureBox60.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox60.Location = new System.Drawing.Point(254, 114);
+            this.pictureBox60.Enabled = false;
+            this.pictureBox60.Location = new System.Drawing.Point(255, 110);
             this.pictureBox60.Name = "pictureBox60";
             this.pictureBox60.Size = new System.Drawing.Size(16, 16);
             this.pictureBox60.TabIndex = 143;
@@ -876,7 +1005,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox61
             // 
             this.pictureBox61.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox61.Location = new System.Drawing.Point(276, 114);
+            this.pictureBox61.Enabled = false;
+            this.pictureBox61.Location = new System.Drawing.Point(277, 110);
             this.pictureBox61.Name = "pictureBox61";
             this.pictureBox61.Size = new System.Drawing.Size(16, 16);
             this.pictureBox61.TabIndex = 144;
@@ -886,7 +1016,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox62
             // 
             this.pictureBox62.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox62.Location = new System.Drawing.Point(298, 114);
+            this.pictureBox62.Enabled = false;
+            this.pictureBox62.Location = new System.Drawing.Point(299, 110);
             this.pictureBox62.Name = "pictureBox62";
             this.pictureBox62.Size = new System.Drawing.Size(16, 16);
             this.pictureBox62.TabIndex = 145;
@@ -896,7 +1027,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox63
             // 
             this.pictureBox63.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox63.Location = new System.Drawing.Point(320, 114);
+            this.pictureBox63.Enabled = false;
+            this.pictureBox63.Location = new System.Drawing.Point(321, 110);
             this.pictureBox63.Name = "pictureBox63";
             this.pictureBox63.Size = new System.Drawing.Size(16, 16);
             this.pictureBox63.TabIndex = 146;
@@ -906,7 +1038,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox64
             // 
             this.pictureBox64.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox64.Location = new System.Drawing.Point(342, 114);
+            this.pictureBox64.Enabled = false;
+            this.pictureBox64.Location = new System.Drawing.Point(343, 110);
             this.pictureBox64.Name = "pictureBox64";
             this.pictureBox64.Size = new System.Drawing.Size(16, 16);
             this.pictureBox64.TabIndex = 147;
@@ -916,7 +1049,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox65
             // 
             this.pictureBox65.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox65.Location = new System.Drawing.Point(12, 136);
+            this.pictureBox65.Enabled = false;
+            this.pictureBox65.Location = new System.Drawing.Point(13, 132);
             this.pictureBox65.Name = "pictureBox65";
             this.pictureBox65.Size = new System.Drawing.Size(16, 16);
             this.pictureBox65.TabIndex = 148;
@@ -926,7 +1060,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox66
             // 
             this.pictureBox66.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox66.Location = new System.Drawing.Point(34, 136);
+            this.pictureBox66.Enabled = false;
+            this.pictureBox66.Location = new System.Drawing.Point(35, 132);
             this.pictureBox66.Name = "pictureBox66";
             this.pictureBox66.Size = new System.Drawing.Size(16, 16);
             this.pictureBox66.TabIndex = 149;
@@ -936,7 +1071,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox67
             // 
             this.pictureBox67.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox67.Location = new System.Drawing.Point(56, 136);
+            this.pictureBox67.Enabled = false;
+            this.pictureBox67.Location = new System.Drawing.Point(57, 132);
             this.pictureBox67.Name = "pictureBox67";
             this.pictureBox67.Size = new System.Drawing.Size(16, 16);
             this.pictureBox67.TabIndex = 150;
@@ -946,7 +1082,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox68
             // 
             this.pictureBox68.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox68.Location = new System.Drawing.Point(78, 136);
+            this.pictureBox68.Enabled = false;
+            this.pictureBox68.Location = new System.Drawing.Point(79, 132);
             this.pictureBox68.Name = "pictureBox68";
             this.pictureBox68.Size = new System.Drawing.Size(16, 16);
             this.pictureBox68.TabIndex = 151;
@@ -956,7 +1093,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox69
             // 
             this.pictureBox69.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox69.Location = new System.Drawing.Point(100, 136);
+            this.pictureBox69.Enabled = false;
+            this.pictureBox69.Location = new System.Drawing.Point(101, 132);
             this.pictureBox69.Name = "pictureBox69";
             this.pictureBox69.Size = new System.Drawing.Size(16, 16);
             this.pictureBox69.TabIndex = 152;
@@ -966,7 +1104,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox70
             // 
             this.pictureBox70.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox70.Location = new System.Drawing.Point(122, 136);
+            this.pictureBox70.Enabled = false;
+            this.pictureBox70.Location = new System.Drawing.Point(123, 132);
             this.pictureBox70.Name = "pictureBox70";
             this.pictureBox70.Size = new System.Drawing.Size(16, 16);
             this.pictureBox70.TabIndex = 153;
@@ -976,7 +1115,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox71
             // 
             this.pictureBox71.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox71.Location = new System.Drawing.Point(144, 136);
+            this.pictureBox71.Enabled = false;
+            this.pictureBox71.Location = new System.Drawing.Point(145, 132);
             this.pictureBox71.Name = "pictureBox71";
             this.pictureBox71.Size = new System.Drawing.Size(16, 16);
             this.pictureBox71.TabIndex = 154;
@@ -986,7 +1126,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox72
             // 
             this.pictureBox72.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox72.Location = new System.Drawing.Point(166, 136);
+            this.pictureBox72.Enabled = false;
+            this.pictureBox72.Location = new System.Drawing.Point(167, 132);
             this.pictureBox72.Name = "pictureBox72";
             this.pictureBox72.Size = new System.Drawing.Size(16, 16);
             this.pictureBox72.TabIndex = 155;
@@ -996,7 +1137,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox73
             // 
             this.pictureBox73.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox73.Location = new System.Drawing.Point(188, 136);
+            this.pictureBox73.Enabled = false;
+            this.pictureBox73.Location = new System.Drawing.Point(189, 132);
             this.pictureBox73.Name = "pictureBox73";
             this.pictureBox73.Size = new System.Drawing.Size(16, 16);
             this.pictureBox73.TabIndex = 156;
@@ -1006,7 +1148,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox74
             // 
             this.pictureBox74.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox74.Location = new System.Drawing.Point(210, 136);
+            this.pictureBox74.Enabled = false;
+            this.pictureBox74.Location = new System.Drawing.Point(211, 132);
             this.pictureBox74.Name = "pictureBox74";
             this.pictureBox74.Size = new System.Drawing.Size(16, 16);
             this.pictureBox74.TabIndex = 157;
@@ -1016,7 +1159,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox75
             // 
             this.pictureBox75.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox75.Location = new System.Drawing.Point(232, 136);
+            this.pictureBox75.Enabled = false;
+            this.pictureBox75.Location = new System.Drawing.Point(233, 132);
             this.pictureBox75.Name = "pictureBox75";
             this.pictureBox75.Size = new System.Drawing.Size(16, 16);
             this.pictureBox75.TabIndex = 158;
@@ -1026,7 +1170,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox76
             // 
             this.pictureBox76.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox76.Location = new System.Drawing.Point(254, 136);
+            this.pictureBox76.Enabled = false;
+            this.pictureBox76.Location = new System.Drawing.Point(255, 132);
             this.pictureBox76.Name = "pictureBox76";
             this.pictureBox76.Size = new System.Drawing.Size(16, 16);
             this.pictureBox76.TabIndex = 159;
@@ -1036,7 +1181,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox77
             // 
             this.pictureBox77.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox77.Location = new System.Drawing.Point(276, 136);
+            this.pictureBox77.Enabled = false;
+            this.pictureBox77.Location = new System.Drawing.Point(277, 132);
             this.pictureBox77.Name = "pictureBox77";
             this.pictureBox77.Size = new System.Drawing.Size(16, 16);
             this.pictureBox77.TabIndex = 160;
@@ -1046,7 +1192,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox78
             // 
             this.pictureBox78.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox78.Location = new System.Drawing.Point(298, 136);
+            this.pictureBox78.Enabled = false;
+            this.pictureBox78.Location = new System.Drawing.Point(299, 132);
             this.pictureBox78.Name = "pictureBox78";
             this.pictureBox78.Size = new System.Drawing.Size(16, 16);
             this.pictureBox78.TabIndex = 161;
@@ -1056,7 +1203,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox79
             // 
             this.pictureBox79.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox79.Location = new System.Drawing.Point(320, 136);
+            this.pictureBox79.Enabled = false;
+            this.pictureBox79.Location = new System.Drawing.Point(321, 132);
             this.pictureBox79.Name = "pictureBox79";
             this.pictureBox79.Size = new System.Drawing.Size(16, 16);
             this.pictureBox79.TabIndex = 162;
@@ -1066,7 +1214,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox80
             // 
             this.pictureBox80.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox80.Location = new System.Drawing.Point(342, 136);
+            this.pictureBox80.Enabled = false;
+            this.pictureBox80.Location = new System.Drawing.Point(343, 132);
             this.pictureBox80.Name = "pictureBox80";
             this.pictureBox80.Size = new System.Drawing.Size(16, 16);
             this.pictureBox80.TabIndex = 163;
@@ -1076,7 +1225,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox81
             // 
             this.pictureBox81.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox81.Location = new System.Drawing.Point(12, 158);
+            this.pictureBox81.Enabled = false;
+            this.pictureBox81.Location = new System.Drawing.Point(13, 154);
             this.pictureBox81.Name = "pictureBox81";
             this.pictureBox81.Size = new System.Drawing.Size(16, 16);
             this.pictureBox81.TabIndex = 164;
@@ -1086,7 +1236,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox82
             // 
             this.pictureBox82.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox82.Location = new System.Drawing.Point(34, 158);
+            this.pictureBox82.Enabled = false;
+            this.pictureBox82.Location = new System.Drawing.Point(35, 154);
             this.pictureBox82.Name = "pictureBox82";
             this.pictureBox82.Size = new System.Drawing.Size(16, 16);
             this.pictureBox82.TabIndex = 165;
@@ -1096,7 +1247,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox83
             // 
             this.pictureBox83.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox83.Location = new System.Drawing.Point(56, 158);
+            this.pictureBox83.Enabled = false;
+            this.pictureBox83.Location = new System.Drawing.Point(57, 154);
             this.pictureBox83.Name = "pictureBox83";
             this.pictureBox83.Size = new System.Drawing.Size(16, 16);
             this.pictureBox83.TabIndex = 166;
@@ -1106,7 +1258,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox84
             // 
             this.pictureBox84.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox84.Location = new System.Drawing.Point(78, 158);
+            this.pictureBox84.Enabled = false;
+            this.pictureBox84.Location = new System.Drawing.Point(79, 154);
             this.pictureBox84.Name = "pictureBox84";
             this.pictureBox84.Size = new System.Drawing.Size(16, 16);
             this.pictureBox84.TabIndex = 167;
@@ -1116,7 +1269,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox85
             // 
             this.pictureBox85.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox85.Location = new System.Drawing.Point(100, 158);
+            this.pictureBox85.Enabled = false;
+            this.pictureBox85.Location = new System.Drawing.Point(101, 154);
             this.pictureBox85.Name = "pictureBox85";
             this.pictureBox85.Size = new System.Drawing.Size(16, 16);
             this.pictureBox85.TabIndex = 168;
@@ -1126,7 +1280,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox86
             // 
             this.pictureBox86.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox86.Location = new System.Drawing.Point(122, 158);
+            this.pictureBox86.Enabled = false;
+            this.pictureBox86.Location = new System.Drawing.Point(123, 154);
             this.pictureBox86.Name = "pictureBox86";
             this.pictureBox86.Size = new System.Drawing.Size(16, 16);
             this.pictureBox86.TabIndex = 169;
@@ -1136,7 +1291,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox87
             // 
             this.pictureBox87.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox87.Location = new System.Drawing.Point(144, 158);
+            this.pictureBox87.Enabled = false;
+            this.pictureBox87.Location = new System.Drawing.Point(145, 154);
             this.pictureBox87.Name = "pictureBox87";
             this.pictureBox87.Size = new System.Drawing.Size(16, 16);
             this.pictureBox87.TabIndex = 170;
@@ -1146,7 +1302,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox88
             // 
             this.pictureBox88.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox88.Location = new System.Drawing.Point(166, 158);
+            this.pictureBox88.Enabled = false;
+            this.pictureBox88.Location = new System.Drawing.Point(167, 154);
             this.pictureBox88.Name = "pictureBox88";
             this.pictureBox88.Size = new System.Drawing.Size(16, 16);
             this.pictureBox88.TabIndex = 171;
@@ -1156,7 +1313,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox89
             // 
             this.pictureBox89.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox89.Location = new System.Drawing.Point(188, 158);
+            this.pictureBox89.Enabled = false;
+            this.pictureBox89.Location = new System.Drawing.Point(189, 154);
             this.pictureBox89.Name = "pictureBox89";
             this.pictureBox89.Size = new System.Drawing.Size(16, 16);
             this.pictureBox89.TabIndex = 172;
@@ -1166,7 +1324,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox90
             // 
             this.pictureBox90.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox90.Location = new System.Drawing.Point(210, 158);
+            this.pictureBox90.Enabled = false;
+            this.pictureBox90.Location = new System.Drawing.Point(211, 154);
             this.pictureBox90.Name = "pictureBox90";
             this.pictureBox90.Size = new System.Drawing.Size(16, 16);
             this.pictureBox90.TabIndex = 173;
@@ -1176,7 +1335,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox91
             // 
             this.pictureBox91.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox91.Location = new System.Drawing.Point(232, 158);
+            this.pictureBox91.Enabled = false;
+            this.pictureBox91.Location = new System.Drawing.Point(233, 154);
             this.pictureBox91.Name = "pictureBox91";
             this.pictureBox91.Size = new System.Drawing.Size(16, 16);
             this.pictureBox91.TabIndex = 174;
@@ -1186,7 +1346,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox92
             // 
             this.pictureBox92.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox92.Location = new System.Drawing.Point(254, 158);
+            this.pictureBox92.Enabled = false;
+            this.pictureBox92.Location = new System.Drawing.Point(255, 154);
             this.pictureBox92.Name = "pictureBox92";
             this.pictureBox92.Size = new System.Drawing.Size(16, 16);
             this.pictureBox92.TabIndex = 175;
@@ -1196,7 +1357,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox93
             // 
             this.pictureBox93.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox93.Location = new System.Drawing.Point(276, 158);
+            this.pictureBox93.Enabled = false;
+            this.pictureBox93.Location = new System.Drawing.Point(277, 154);
             this.pictureBox93.Name = "pictureBox93";
             this.pictureBox93.Size = new System.Drawing.Size(16, 16);
             this.pictureBox93.TabIndex = 176;
@@ -1206,7 +1368,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox94
             // 
             this.pictureBox94.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox94.Location = new System.Drawing.Point(298, 158);
+            this.pictureBox94.Enabled = false;
+            this.pictureBox94.Location = new System.Drawing.Point(299, 154);
             this.pictureBox94.Name = "pictureBox94";
             this.pictureBox94.Size = new System.Drawing.Size(16, 16);
             this.pictureBox94.TabIndex = 177;
@@ -1216,7 +1379,8 @@ namespace RSDKv4_Palette_Editor
             // pictureBox95
             // 
             this.pictureBox95.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox95.Location = new System.Drawing.Point(320, 158);
+            this.pictureBox95.Enabled = false;
+            this.pictureBox95.Location = new System.Drawing.Point(321, 154);
             this.pictureBox95.Name = "pictureBox95";
             this.pictureBox95.Size = new System.Drawing.Size(16, 16);
             this.pictureBox95.TabIndex = 178;
@@ -1226,18 +1390,423 @@ namespace RSDKv4_Palette_Editor
             // pictureBox96
             // 
             this.pictureBox96.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox96.Location = new System.Drawing.Point(342, 158);
+            this.pictureBox96.Enabled = false;
+            this.pictureBox96.Location = new System.Drawing.Point(343, 154);
             this.pictureBox96.Name = "pictureBox96";
             this.pictureBox96.Size = new System.Drawing.Size(16, 16);
             this.pictureBox96.TabIndex = 179;
             this.pictureBox96.TabStop = false;
             this.pictureBox96.Click += new System.EventHandler(this.colorBox_Click);
             // 
+            // listPalettes
+            // 
+            this.listPalettes.FormattingEnabled = true;
+            this.listPalettes.Location = new System.Drawing.Point(364, 44);
+            this.listPalettes.Name = "listPalettes";
+            this.listPalettes.Size = new System.Drawing.Size(120, 173);
+            this.listPalettes.TabIndex = 181;
+            this.listPalettes.SelectedIndexChanged += new System.EventHandler(this.listPalettes_SelectedIndexChanged);
+            // 
+            // pictureBox97
+            // 
+            this.pictureBox97.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox97.Enabled = false;
+            this.pictureBox97.Location = new System.Drawing.Point(13, 176);
+            this.pictureBox97.Name = "pictureBox97";
+            this.pictureBox97.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox97.TabIndex = 182;
+            this.pictureBox97.TabStop = false;
+            this.pictureBox97.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox98
+            // 
+            this.pictureBox98.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox98.Enabled = false;
+            this.pictureBox98.Location = new System.Drawing.Point(35, 176);
+            this.pictureBox98.Name = "pictureBox98";
+            this.pictureBox98.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox98.TabIndex = 183;
+            this.pictureBox98.TabStop = false;
+            this.pictureBox98.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox99
+            // 
+            this.pictureBox99.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox99.Enabled = false;
+            this.pictureBox99.Location = new System.Drawing.Point(57, 176);
+            this.pictureBox99.Name = "pictureBox99";
+            this.pictureBox99.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox99.TabIndex = 184;
+            this.pictureBox99.TabStop = false;
+            this.pictureBox99.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox100
+            // 
+            this.pictureBox100.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox100.Enabled = false;
+            this.pictureBox100.Location = new System.Drawing.Point(79, 176);
+            this.pictureBox100.Name = "pictureBox100";
+            this.pictureBox100.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox100.TabIndex = 185;
+            this.pictureBox100.TabStop = false;
+            this.pictureBox100.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox101
+            // 
+            this.pictureBox101.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox101.Enabled = false;
+            this.pictureBox101.Location = new System.Drawing.Point(101, 176);
+            this.pictureBox101.Name = "pictureBox101";
+            this.pictureBox101.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox101.TabIndex = 186;
+            this.pictureBox101.TabStop = false;
+            this.pictureBox101.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox102
+            // 
+            this.pictureBox102.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox102.Enabled = false;
+            this.pictureBox102.Location = new System.Drawing.Point(123, 176);
+            this.pictureBox102.Name = "pictureBox102";
+            this.pictureBox102.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox102.TabIndex = 187;
+            this.pictureBox102.TabStop = false;
+            this.pictureBox102.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox103
+            // 
+            this.pictureBox103.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox103.Enabled = false;
+            this.pictureBox103.Location = new System.Drawing.Point(145, 176);
+            this.pictureBox103.Name = "pictureBox103";
+            this.pictureBox103.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox103.TabIndex = 188;
+            this.pictureBox103.TabStop = false;
+            this.pictureBox103.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox104
+            // 
+            this.pictureBox104.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox104.Enabled = false;
+            this.pictureBox104.Location = new System.Drawing.Point(167, 176);
+            this.pictureBox104.Name = "pictureBox104";
+            this.pictureBox104.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox104.TabIndex = 189;
+            this.pictureBox104.TabStop = false;
+            this.pictureBox104.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox105
+            // 
+            this.pictureBox105.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox105.Enabled = false;
+            this.pictureBox105.Location = new System.Drawing.Point(189, 176);
+            this.pictureBox105.Name = "pictureBox105";
+            this.pictureBox105.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox105.TabIndex = 190;
+            this.pictureBox105.TabStop = false;
+            this.pictureBox105.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox106
+            // 
+            this.pictureBox106.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox106.Enabled = false;
+            this.pictureBox106.Location = new System.Drawing.Point(211, 176);
+            this.pictureBox106.Name = "pictureBox106";
+            this.pictureBox106.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox106.TabIndex = 191;
+            this.pictureBox106.TabStop = false;
+            this.pictureBox106.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox107
+            // 
+            this.pictureBox107.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox107.Enabled = false;
+            this.pictureBox107.Location = new System.Drawing.Point(233, 176);
+            this.pictureBox107.Name = "pictureBox107";
+            this.pictureBox107.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox107.TabIndex = 192;
+            this.pictureBox107.TabStop = false;
+            this.pictureBox107.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox108
+            // 
+            this.pictureBox108.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox108.Enabled = false;
+            this.pictureBox108.Location = new System.Drawing.Point(255, 176);
+            this.pictureBox108.Name = "pictureBox108";
+            this.pictureBox108.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox108.TabIndex = 193;
+            this.pictureBox108.TabStop = false;
+            this.pictureBox108.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox109
+            // 
+            this.pictureBox109.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox109.Enabled = false;
+            this.pictureBox109.Location = new System.Drawing.Point(277, 176);
+            this.pictureBox109.Name = "pictureBox109";
+            this.pictureBox109.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox109.TabIndex = 194;
+            this.pictureBox109.TabStop = false;
+            this.pictureBox109.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox110
+            // 
+            this.pictureBox110.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox110.Enabled = false;
+            this.pictureBox110.Location = new System.Drawing.Point(299, 176);
+            this.pictureBox110.Name = "pictureBox110";
+            this.pictureBox110.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox110.TabIndex = 195;
+            this.pictureBox110.TabStop = false;
+            this.pictureBox110.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox111
+            // 
+            this.pictureBox111.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox111.Enabled = false;
+            this.pictureBox111.Location = new System.Drawing.Point(321, 176);
+            this.pictureBox111.Name = "pictureBox111";
+            this.pictureBox111.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox111.TabIndex = 196;
+            this.pictureBox111.TabStop = false;
+            this.pictureBox111.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox112
+            // 
+            this.pictureBox112.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox112.Enabled = false;
+            this.pictureBox112.Location = new System.Drawing.Point(343, 176);
+            this.pictureBox112.Name = "pictureBox112";
+            this.pictureBox112.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox112.TabIndex = 197;
+            this.pictureBox112.TabStop = false;
+            this.pictureBox112.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox113
+            // 
+            this.pictureBox113.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox113.Enabled = false;
+            this.pictureBox113.Location = new System.Drawing.Point(13, 198);
+            this.pictureBox113.Name = "pictureBox113";
+            this.pictureBox113.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox113.TabIndex = 198;
+            this.pictureBox113.TabStop = false;
+            this.pictureBox113.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox114
+            // 
+            this.pictureBox114.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox114.Enabled = false;
+            this.pictureBox114.Location = new System.Drawing.Point(35, 198);
+            this.pictureBox114.Name = "pictureBox114";
+            this.pictureBox114.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox114.TabIndex = 199;
+            this.pictureBox114.TabStop = false;
+            this.pictureBox114.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox115
+            // 
+            this.pictureBox115.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox115.Enabled = false;
+            this.pictureBox115.Location = new System.Drawing.Point(57, 198);
+            this.pictureBox115.Name = "pictureBox115";
+            this.pictureBox115.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox115.TabIndex = 200;
+            this.pictureBox115.TabStop = false;
+            this.pictureBox115.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox116
+            // 
+            this.pictureBox116.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox116.Enabled = false;
+            this.pictureBox116.Location = new System.Drawing.Point(79, 198);
+            this.pictureBox116.Name = "pictureBox116";
+            this.pictureBox116.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox116.TabIndex = 201;
+            this.pictureBox116.TabStop = false;
+            this.pictureBox116.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox117
+            // 
+            this.pictureBox117.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox117.Enabled = false;
+            this.pictureBox117.Location = new System.Drawing.Point(101, 198);
+            this.pictureBox117.Name = "pictureBox117";
+            this.pictureBox117.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox117.TabIndex = 202;
+            this.pictureBox117.TabStop = false;
+            this.pictureBox117.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox118
+            // 
+            this.pictureBox118.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox118.Enabled = false;
+            this.pictureBox118.Location = new System.Drawing.Point(123, 198);
+            this.pictureBox118.Name = "pictureBox118";
+            this.pictureBox118.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox118.TabIndex = 203;
+            this.pictureBox118.TabStop = false;
+            this.pictureBox118.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox119
+            // 
+            this.pictureBox119.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox119.Enabled = false;
+            this.pictureBox119.Location = new System.Drawing.Point(145, 198);
+            this.pictureBox119.Name = "pictureBox119";
+            this.pictureBox119.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox119.TabIndex = 204;
+            this.pictureBox119.TabStop = false;
+            this.pictureBox119.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox120
+            // 
+            this.pictureBox120.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox120.Enabled = false;
+            this.pictureBox120.Location = new System.Drawing.Point(167, 198);
+            this.pictureBox120.Name = "pictureBox120";
+            this.pictureBox120.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox120.TabIndex = 205;
+            this.pictureBox120.TabStop = false;
+            this.pictureBox120.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox121
+            // 
+            this.pictureBox121.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox121.Enabled = false;
+            this.pictureBox121.Location = new System.Drawing.Point(189, 198);
+            this.pictureBox121.Name = "pictureBox121";
+            this.pictureBox121.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox121.TabIndex = 206;
+            this.pictureBox121.TabStop = false;
+            this.pictureBox121.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox122
+            // 
+            this.pictureBox122.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox122.Enabled = false;
+            this.pictureBox122.Location = new System.Drawing.Point(211, 198);
+            this.pictureBox122.Name = "pictureBox122";
+            this.pictureBox122.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox122.TabIndex = 207;
+            this.pictureBox122.TabStop = false;
+            this.pictureBox122.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox123
+            // 
+            this.pictureBox123.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox123.Enabled = false;
+            this.pictureBox123.Location = new System.Drawing.Point(233, 198);
+            this.pictureBox123.Name = "pictureBox123";
+            this.pictureBox123.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox123.TabIndex = 208;
+            this.pictureBox123.TabStop = false;
+            this.pictureBox123.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox124
+            // 
+            this.pictureBox124.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox124.Enabled = false;
+            this.pictureBox124.Location = new System.Drawing.Point(255, 198);
+            this.pictureBox124.Name = "pictureBox124";
+            this.pictureBox124.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox124.TabIndex = 209;
+            this.pictureBox124.TabStop = false;
+            this.pictureBox124.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox125
+            // 
+            this.pictureBox125.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox125.Enabled = false;
+            this.pictureBox125.Location = new System.Drawing.Point(277, 198);
+            this.pictureBox125.Name = "pictureBox125";
+            this.pictureBox125.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox125.TabIndex = 210;
+            this.pictureBox125.TabStop = false;
+            this.pictureBox125.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox126
+            // 
+            this.pictureBox126.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox126.Enabled = false;
+            this.pictureBox126.Location = new System.Drawing.Point(299, 198);
+            this.pictureBox126.Name = "pictureBox126";
+            this.pictureBox126.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox126.TabIndex = 211;
+            this.pictureBox126.TabStop = false;
+            this.pictureBox126.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox127
+            // 
+            this.pictureBox127.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox127.Enabled = false;
+            this.pictureBox127.Location = new System.Drawing.Point(321, 198);
+            this.pictureBox127.Name = "pictureBox127";
+            this.pictureBox127.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox127.TabIndex = 212;
+            this.pictureBox127.TabStop = false;
+            this.pictureBox127.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // pictureBox128
+            // 
+            this.pictureBox128.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox128.Enabled = false;
+            this.pictureBox128.Location = new System.Drawing.Point(343, 198);
+            this.pictureBox128.Name = "pictureBox128";
+            this.pictureBox128.Size = new System.Drawing.Size(16, 16);
+            this.pictureBox128.TabIndex = 213;
+            this.pictureBox128.TabStop = false;
+            this.pictureBox128.Click += new System.EventHandler(this.colorBox_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(241, 22);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.TabIndex = 214;
+            this.label3.Text = "v1.1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(369, 209);
+            this.ClientSize = new System.Drawing.Size(492, 224);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.pictureBox113);
+            this.Controls.Add(this.pictureBox114);
+            this.Controls.Add(this.pictureBox115);
+            this.Controls.Add(this.pictureBox116);
+            this.Controls.Add(this.pictureBox117);
+            this.Controls.Add(this.pictureBox118);
+            this.Controls.Add(this.pictureBox119);
+            this.Controls.Add(this.pictureBox120);
+            this.Controls.Add(this.pictureBox121);
+            this.Controls.Add(this.pictureBox122);
+            this.Controls.Add(this.pictureBox123);
+            this.Controls.Add(this.pictureBox124);
+            this.Controls.Add(this.pictureBox125);
+            this.Controls.Add(this.pictureBox126);
+            this.Controls.Add(this.pictureBox127);
+            this.Controls.Add(this.pictureBox128);
+            this.Controls.Add(this.pictureBox97);
+            this.Controls.Add(this.pictureBox98);
+            this.Controls.Add(this.pictureBox99);
+            this.Controls.Add(this.pictureBox100);
+            this.Controls.Add(this.pictureBox101);
+            this.Controls.Add(this.pictureBox102);
+            this.Controls.Add(this.pictureBox103);
+            this.Controls.Add(this.pictureBox104);
+            this.Controls.Add(this.pictureBox105);
+            this.Controls.Add(this.pictureBox106);
+            this.Controls.Add(this.pictureBox107);
+            this.Controls.Add(this.pictureBox108);
+            this.Controls.Add(this.pictureBox109);
+            this.Controls.Add(this.pictureBox110);
+            this.Controls.Add(this.pictureBox111);
+            this.Controls.Add(this.pictureBox112);
+            this.Controls.Add(this.listPalettes);
             this.Controls.Add(this.pictureBox81);
             this.Controls.Add(this.pictureBox82);
             this.Controls.Add(this.pictureBox83);
@@ -1336,8 +1905,8 @@ namespace RSDKv4_Palette_Editor
             this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnOpen);
+            this.Controls.Add(this.btnSave);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
@@ -1345,7 +1914,7 @@ namespace RSDKv4_Palette_Editor
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "RSDKv4 Palette Editor";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -1442,6 +2011,38 @@ namespace RSDKv4_Palette_Editor
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox94)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox95)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox96)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox97)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox98)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox99)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox100)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox101)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox102)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox103)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox104)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox105)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox106)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox107)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox108)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox109)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox110)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox111)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox112)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox113)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox114)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox115)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox116)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox122)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox124)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox125)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox126)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox128)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1465,8 +2066,8 @@ namespace RSDKv4_Palette_Editor
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnOpen;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox17;
@@ -1549,6 +2150,40 @@ namespace RSDKv4_Palette_Editor
         private System.Windows.Forms.PictureBox pictureBox94;
         private System.Windows.Forms.PictureBox pictureBox95;
         private System.Windows.Forms.PictureBox pictureBox96;
+        private System.Windows.Forms.ListBox listPalettes;
+        private System.Windows.Forms.PictureBox pictureBox97;
+        private System.Windows.Forms.PictureBox pictureBox98;
+        private System.Windows.Forms.PictureBox pictureBox99;
+        private System.Windows.Forms.PictureBox pictureBox100;
+        private System.Windows.Forms.PictureBox pictureBox101;
+        private System.Windows.Forms.PictureBox pictureBox102;
+        private System.Windows.Forms.PictureBox pictureBox103;
+        private System.Windows.Forms.PictureBox pictureBox104;
+        private System.Windows.Forms.PictureBox pictureBox105;
+        private System.Windows.Forms.PictureBox pictureBox106;
+        private System.Windows.Forms.PictureBox pictureBox107;
+        private System.Windows.Forms.PictureBox pictureBox108;
+        private System.Windows.Forms.PictureBox pictureBox109;
+        private System.Windows.Forms.PictureBox pictureBox110;
+        private System.Windows.Forms.PictureBox pictureBox111;
+        private System.Windows.Forms.PictureBox pictureBox112;
+        private System.Windows.Forms.PictureBox pictureBox113;
+        private System.Windows.Forms.PictureBox pictureBox114;
+        private System.Windows.Forms.PictureBox pictureBox115;
+        private System.Windows.Forms.PictureBox pictureBox116;
+        private System.Windows.Forms.PictureBox pictureBox117;
+        private System.Windows.Forms.PictureBox pictureBox118;
+        private System.Windows.Forms.PictureBox pictureBox119;
+        private System.Windows.Forms.PictureBox pictureBox120;
+        private System.Windows.Forms.PictureBox pictureBox121;
+        private System.Windows.Forms.PictureBox pictureBox122;
+        private System.Windows.Forms.PictureBox pictureBox123;
+        private System.Windows.Forms.PictureBox pictureBox124;
+        private System.Windows.Forms.PictureBox pictureBox125;
+        private System.Windows.Forms.PictureBox pictureBox126;
+        private System.Windows.Forms.PictureBox pictureBox127;
+        private System.Windows.Forms.PictureBox pictureBox128;
+        private System.Windows.Forms.Label label3;
     }
 }
 
