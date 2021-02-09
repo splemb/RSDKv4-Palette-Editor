@@ -1,15 +1,16 @@
 # RSDKv4 Palette Editor
 ###### Because RetroED v2 isn't done yet
 
-Very basic GUI tool for editing RSDKv4 global palettes stored in GameConfig.bin.
+Very basic GUI tool for editing RSDKv4 global and stage palettes.
 
 ### How to Use
 
 1. Run the .exe
 2. Click "Open"
-3. Select the GameConfig.bin file you want to edit
-4. Modify the colours
-5. Click "Save"
+3. Select the GameConfig.bin file in the data folder
+4. Select the palette you want to change in the list
+5. Modify the colours
+6. Click "Save"
 
 ### Notes
 
